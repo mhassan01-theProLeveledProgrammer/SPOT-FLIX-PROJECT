@@ -169,7 +169,7 @@ int main()
         }
         if ((Cat1=="SCIENCE" || Cat1=="science") && (Cat2=="FICTION" || Cat2=="fiction"))
         {
-            cout<<" HERE WE HAVE \n SOME SCIENCE FICTION NOVELS \n YOU WOULD LOVE"<<endl;
+            cout<<" HERE WE HAVE \n SOME SCIENCE FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
             Sleep(2000);
             system("cls");
             system("color A");
@@ -206,51 +206,141 @@ int main()
             cout<<"THE MOON IS THE HARSH MISTRESS \n\t\t\t BY ROBERT A. HEINLEIN IN 1966"<<endl;
             system("color D");
             Sleep(200);
-            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            cout<<"THE FIFTH SEASON \n\t\t\t BY N.K. JEMISIN IN 2015"<<endl;
             Sleep(200);
-            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            cout<<"BINTI \n\t\t\t BY NNEDI OKARAFOR IN 2015"<<endl;
             Sleep(200);
-            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            cout<<"BRAVE NEW WORLD \n\t\t\t BY ALDOUS HUXLEY IN 1932"<<endl;
             Sleep(200);
-            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            cout<<"ANNIHILATION \n\t\t\t BY JEFF VANDERMEER IN 2014"<<endl;
             Sleep(200);
-            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            cout<<"KINDRED \n\t\t\t BY OCTAVIA E. BUTLER IN 1979"<<endl;
+            cout<<endl;
         }
-        else if()
+        else if((Cat1=="HISTORICAL" || Cat1=="historical") && (Cat2=="FICTION" || Cat2=="fiction"))
+        {
+            cout<<" HERE WE HAVE \n SOME HISTORICAL FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color 0");
+            cout<<"WAR AND PEACE \n\t\t\t BY LEO TOLSTOY IN 1867"<<endl;
+            Sleep(200);
+            cout<<"ALL THE LIGHT WE CANNOT SEE \n\t\t\t BY ANTHONY DOERR IN 2014"<<endl;
+            Sleep(200);
+            cout<<"THE PILLARS OF THE EARTH \n\t\t\t BY KEN FOLLETT IN 1989"<<endl;
+            Sleep(200);
+            cout<<"WOLF HALL \n\t\t\t BY HILARY MANTEL IN 2009"<<endl;
+            Sleep(200);
+            cout<<"THE BOOK THIEF \n\t\t\t BY MARKUS ZUSAK IN 2005"<<endl;
+            system("color 1");
+            Sleep(200);
+            cout<<"THE RED TENT \n\t\t\t BY ANITA DIAMANT IN 1997"<<endl;
+            Sleep(200);
+            cout<<"BELOVED \n\t\t\t BY TONI MORRISON IN 1987"<<endl;
+            Sleep(200);
+            cout<<"OUTLANDER \n\t\t\t BY DIANA GABALDON IN 1991"<<endl;
+            Sleep(200);
+            cout<<"A GENTLEMAN IN MOSCOW \n\t\t\t BY AMOR TOWELS IN 2016"<<endl;
+            Sleep(200);
+            cout<<"ALIAS GRACE \n\t\t\t BY MARGARET ATWOOD IN 1996"<<endl;
+            system("color 2");
+            Sleep(200);
+            cout<<"THE FOUR WINDS: A NOVEL \n\t\t\t BY KRISTIN HANNAH IN 2021"<<endl;
+            Sleep(200);
+            cout<<"GIRL WITH A PEARL EARRING: A SERVANT \n\t\t\t BY TRACY CHEVALIER IN 1999"<<endl;
+            Sleep(200);
+            cout<<"THE OTHER BOLEYN GIRL \n\t\t\t BY PHILIPPA GREGORY IN 2001"<<endl;
+            Sleep(200);
+            cout<<"GONE WITH THE WIND \n\t\t\t BY MARGARET MITCHELL IN 1936"<<endl;
+            Sleep(200);
+            cout<<"THE NIGHTINGALE \n\t\t\t BY KRISTIN HANNAH IN 2015"<<endl;
+            system("color 3");
+            Sleep(200);
+            cout<<"THE UNDERGROUND RAILROAD \n\t\t\t BY COLSON WHITEHEAD IN 2016"<<endl;
+            Sleep(200);
+            cout<<"PACHINKO \n\t\t\t BY MIN JEE LEE IN 2017"<<endl;
+            Sleep(200);
+            cout<<"THE ENGLISH PATIENT \n\t\t\t BY MICHAEL ONDAATJE IN 1992"<<endl;
+            Sleep(200);
+            cout<<"THE PERSONAL LIBRARIAN \n\t\t\t BY HEATHER TERRELL IN 2021"<<endl;
+            Sleep(200);
+            cout<<"ATONEMENT \n\t\t\t BY LAC MCEWAN IN 2001"<<endl;
+            cout<<endl;
+        }
+        else if(Cat1=="MYSTERY" || Cat1=="mystery")
+        {
+            cout<<" HERE WE HAVE \n SOME MYSTERY BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color 4");
+            cout<<"GONE GIRL \n\t\t\t BY GILLIAN FLYNN"<<endl;
+            Sleep(200);
+            cout<<"REBECCA \n\t\t\t BY DAPHANE DU MAURIER"<<endl;
+            Sleep(200);
+            cout<<"THE WOMAN IN WHITE \n\t\t\t BY WILKIE COLLINS"<<endl;
+            Sleep(200);
+            cout<<"THE SILENT PATIENT \n\t\t\t BY ALEX MICHAELIDES"<<endl;
+            Sleep(200);
+            cout<<"THE HOUND OF THE BASKERVILLES \n\t\t\t BY ARTHUR CONAN DOYLE"<<endl;
+            system("color 5");
+            Sleep(200);
+            cout<<"THE BIG SLEEP \n\t\t\t BY RAYMOND CHANDELER"<<endl;
+            Sleep(200);
+            cout<<"THE GIRL ON THE TRAIN \n\t\t\t BY PAULA HAWKINS"<<endl;
+            Sleep(200);
+            cout<<"BIG LITTLE LIES \n\t\t\t BY LIANE MORIARTY"<<endl;
+            Sleep(200);
+            cout<<"THE NAME OF THE ROSE \n\t\t\t BY UMBURTO ECO"<<endl;
+            Sleep(200);
+            cout<<"THE MALTESE FALCON \n\t\t\t BY DASHIELL HAMMETT"<<endl;
+            system("color 6");
+            Sleep(200);
+            cout<<"THE MOONSTONE \n\t\t\t BY WILKIE COLLINS"<<endl;
+            Sleep(200);
+            cout<<"THE GUEST LIST: A NOVEL \n\t\t\t BY LUCY FOLEY"<<endl;
+            Sleep(200);
+            cout<<"THE WOMAN IN THE WINDOW \n\t\t\t BY A. J. FINN"<<endl;
+            Sleep(200);
+            cout<<"THE SILENCE OF THE LAMBS \n\t\t\t BY THOMAS HARRIS"<<endl;
+            Sleep(200);
+            cout<<"IN COLD BLOOD \n\t\t\t BY TRUMAN CAPOTE"<<endl;
+            system("color 7");
+            Sleep(200);
+            cout<<"THE SECRET HISTORY \n\t\t\t BY DONNA TARTT"<<endl;
+            Sleep(200);
+            cout<<"THE POSTMAN ALWAYS RINGS TWICE \n\t\t\t BY JAMES M. CAIN "<<endl;
+            Sleep(200);
+            cout<<"SHUTTER ISLAND \n\t\t\t BY DENNIS LEHANE"<<endl;
+            Sleep(200);
+            cout<<"MY SISTER, THE SERIAL KILLER \n\t\t\t BY OYINKAN BRAITHWAITE"<<endl;
+            Sleep(200);
+            cout<<"THE DAUGHTER OF TIME \n\t\t\t BY JOSEPHINE TEY"<<endl;
+            cout<<endl;
+        }
+        else if(Cat1=="FICTION" || Cat1=="fiction")
         {
 
         }
-        else if()
+        else if(Cat1=="HORROR" || Cat1=="horror")
         {
 
         }
-        else if()
+        else if(Cat1=="FANTASY" || Cat1=="fantasy")
         {
 
         }
-        else if()
+        else if(Cat1=="ROMANCE" || Cat1=="romance")
         {
 
         }
-        else if()
-        {
-
-        }
-        else if()
-        {
-
-        }
-        else if()
-        {
-
-        }
-        else if()
+        else if(Cat1=="BIOGRAPHY" || Cat1=="biography")
         {
 
         }
         else 
         {
-
+            cout<<" INVALID INPUT"<<endl;
+            goto EnglishNovels;
         }
     }
     else if(language=="URDU" || language=="urdu")   
