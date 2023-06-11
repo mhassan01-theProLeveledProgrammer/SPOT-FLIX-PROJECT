@@ -319,23 +319,238 @@ int main()
         }
         else if(Cat1=="FICTION" || Cat1=="fiction")
         {
-
+            cout<<" HERE WE HAVE \n SOME FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color 8");
+            cout<<"PRIDE AND PREJUDICE \n\t\t\t BY GILLIAN FLYNN"<<endl;
+            Sleep(200);
+            cout<<"TRUST \n\t\t\t BY DAPHANE DU MAURIER"<<endl;
+            Sleep(200);
+            cout<<"HAPPY PLACE \n\t\t\t BY WILKIE COLLINS"<<endl;
+            Sleep(200);
+            cout<<"LESSONS IN CHEMISTRY \n\t\t\t BY ALEX MICHAELIDES"<<endl;
+            Sleep(200);
+            cout<<"IT ENDS WITH US \n\t\t\t BY ARTHUR CONAN DOYLE"<<endl;
+            system("color 9");
+            Sleep(200);
+            cout<<"NINETEEN EIGHTY-FOUR \n\t\t\t BY RAYMOND CHANDELER"<<endl;
+            Sleep(200);
+            cout<<"JANE EYRE \n\t\t\t BY PAULA HAWKINS"<<endl;
+            Sleep(200);
+            cout<<"BELOVED \n\t\t\t BY LIANE MORIARTY"<<endl;
+            Sleep(200);
+            cout<<"THE INVISIBLE LIFE OF ADDIE LARUE \n\t\t\t BY UMBURTO ECO"<<endl;
+            Sleep(200);
+            system("color A");
+            Sleep(200);
+            cout<<"ANNA KARENINA \n\t\t\t BY V. E. SCHWAB"<<endl;
+            Sleep(200);
+            cout<<"THE SEVEN HUSBANDS OF EVELYN HUGO \n\t\t\t BY VLADIMIR NABOKOV"<<endl;
+            Sleep(200);
+            cout<<"THE CATCHER IN THE RYE \n\t\t\t BY TAYLOR JENKINS REID"<<endl;
+            Sleep(200);
+            cout<<"ONLY LOVE CAN HURT LIKE THIS \n\t\t\t BY PAIGE TOON"<<endl;
+            Sleep(200);
+            cout<<"ATLAS: THE STORY OF PA SALT \n\t\t\t BY LUCIDA RILEY"<<endl;
+            Sleep(200);
+            cout<<"THE VIOLEN CONSPIRACY: A NOVEL \n\t\t\t BY BRENDAN SLOCUMB"<<endl;
+            Sleep(200);
+            cout<<"ULYSSES \n\t\t\t BY JAMES JOYCE"<<endl;
+            Sleep(200);
+            cout<<"MIDNIGHT'S CHILDREN \n\t\t\t BY SALMAN RUSHDIE"<<endl;
+            cout<<endl;
         }
         else if(Cat1=="HORROR" || Cat1=="horror")
         {
-
+            cout<<" HERE WE HAVE \n SOME HORROR NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color B");
+            cout<<"THE HAUNTING OF HILL HOUSE \n\t\t\t BY SHIRLEY JACKSON "<<endl;
+            Sleep(200);
+            cout<<"DRACULA \n\t\t\t BY BRAM STOKER"<<endl;
+            Sleep(200);
+            cout<<"RING \n\t\t\t BY KOJI SUZUKI"<<endl;
+            Sleep(200);
+            cout<<"GHOST STORY \n\t\t\t BY PETER STRAUB"<<endl;
+            Sleep(200);
+            cout<<"IT \n\t\t\t BY STEPHEN KING"<<endl;
+            system("color C");
+            Sleep(200);
+            cout<<"THE EXORCIST \n\t\t\t BY WILLIAM PETER BLATTY"<<endl;
+            Sleep(200);
+            cout<<"THE SHINING \n\t\t\t BY STEPHEN KING"<<endl;
+            Sleep(200);
+            cout<<"HOUSE OF LEAVES \n\t\t\t BY MARK Z."<<endl;
+            Sleep(200);
+            cout<<"THE HUNGER \n\t\t\t BY ALMA KATSU"<<endl;
+            Sleep(200);
+            cout<<"BIRD BOX \n\t\t\t BY JOSH MALERMAN"<<endl;
+            system("color D");
+            Sleep(200);
+            cout<<"INTERVIEW WITH THE VAMPIRE \n\t\t\t BY ANNE RICE"<<endl;
+            Sleep(200);
+            cout<<"THE OTHER \n\t\t\t BY TOM TYRON"<<endl;
+            Sleep(200);
+            cout<<"LET THE RIGHT ONE IN \n\t\t\t BY TOM TYRON"<<endl;
+            Sleep(200);
+            cout<<"THE WOMAN IN BLACK \n\t\t\t BY SUSAN HILL"<<endl;
+            Sleep(200);
+            cout<<"WORLD WAR Z \n\t\t\t BY MAX BROOKS"<<endl;
+            cout<<endl;
         }
         else if(Cat1=="FANTASY" || Cat1=="fantasy")
         {
-
+            cout<<" HERE WE HAVE \n SOME FANTASY BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color E");
+            cout<<"THE NAME OF THE WIND \n\t\t\t BY PATRICK ROTHFUSS"<<endl;
+            Sleep(200);
+            cout<<"A GAME OF THRONES \n\t\t\t BY GEORGE R. R. MARTIN"<<endl;
+            Sleep(200);
+            cout<<"THE FIFTH SEASON \n\t\t\t BY N. K. JEMISINE"<<endl;
+            Sleep(200);
+            cout<<"THE WAY OF KINGS \n\t\t\t BY BRANDON SANDERSON"<<endl;
+            Sleep(200);
+            cout<<"THE EYE OF THE WORLD \n\t\t\t BY ROBERT JORDAN"<<endl;
+            system("color 1");
+            Sleep(200);
+            cout<<"THE LIES OF LOCKE LAMORA \n\t\t\t BY SCOTT LYNCH"<<endl;
+            Sleep(200);
+            cout<<"ASSASSIN APPRENTICE \n\t\t\t BY ROBIN HOOB"<<endl;
+            Sleep(200);
+            cout<<"A WIZARD OF EARTHSEA \n\t\t\t BY URSULA K. LE GUIN"<<endl;
+            Sleep(200);
+            cout<<"THE LORD OF THE RINGS \n\t\t\t BY J. R. R. TOLKIEN"<<endl;
+            Sleep(200);
+            cout<<"THE NIGHT CIRCUS \n\t\t\t BY ENN MORGENSTERN"<<endl;
+            system("color 2");
+            Sleep(200);
+            cout<<"MISTBORN: THE FINAL EMPIRE \n\t\t\t BY BRANDON SANDERSON"<<endl;
+            Sleep(200);
+            cout<<"SIX OF CROWS \n\t\t\t BY LEIGH BARDUGO"<<endl;
+            Sleep(200);
+            cout<<"AMERICAN GODS \n\t\t\t BY NEIL GAIMAN"<<endl;
+            Sleep(200);
+            cout<<"THE BLADE ITSELF \n\t\t\t BY JOE ABERCROMBIE"<<endl;
+            Sleep(200);
+            cout<<"THE POPPY WAR \n\t\t\t BY R. F. KUANG"<<endl;
+            system("color 3");
+            Sleep(200);
+            cout<<"THE COLOUR OF MAGIC \n\t\t\t BY TERRY PRATCHETT"<<endl;
+            Sleep(200);
+            cout<<"GARDENS OF THE MOON \n\t\t\t BY STEVEN ERICKSON"<<endl;
+            Sleep(200);
+            cout<<"CHILDREN OF BLOOD AND BONE \n\t\t\t BY TOMI ADEYEMI"<<endl;
+            Sleep(200);
+            cout<<"THE ONCE AND FUTURE KING \n\t\t\t BY T. H. WHITE"<<endl;
+            Sleep(200);
+            cout<<"A DARKER SHADE OF MAGIC \n\t\t\t BY V. E. SCHWAB"<<endl;
+            cout<<endl;
         }
         else if(Cat1=="ROMANCE" || Cat1=="romance")
         {
+            cout<<" HERE WE HAVE \n SOME ROMANTIC NOVELS \n YOU WOULD LOVE"<<endl;
 
+            // update it after some time😂
+            Sleep(2000);
+            system("cls");
+            system("color 0");
+            cout<<"WAR AND PEACE \n\t\t\t BY LEO TOLSTOY IN 1867"<<endl;
+            Sleep(200);
+            cout<<"ALL THE LIGHT WE CANNOT SEE \n\t\t\t BY ANTHONY DOERR IN 2014"<<endl;
+            Sleep(200);
+            cout<<"THE PILLARS OF THE EARTH \n\t\t\t BY KEN FOLLETT IN 1989"<<endl;
+            Sleep(200);
+            cout<<"WOLF HALL \n\t\t\t BY HILARY MANTEL IN 2009"<<endl;
+            Sleep(200);
+            cout<<"THE BOOK THIEF \n\t\t\t BY MARKUS ZUSAK IN 2005"<<endl;
+            system("color 1");
+            Sleep(200);
+            cout<<"THE RED TENT \n\t\t\t BY ANITA DIAMANT IN 1997"<<endl;
+            Sleep(200);
+            cout<<"BELOVED \n\t\t\t BY TONI MORRISON IN 1987"<<endl;
+            Sleep(200);
+            cout<<"OUTLANDER \n\t\t\t BY DIANA GABALDON IN 1991"<<endl;
+            Sleep(200);
+            cout<<"A GENTLEMAN IN MOSCOW \n\t\t\t BY AMOR TOWELS IN 2016"<<endl;
+            Sleep(200);
+            cout<<"ALIAS GRACE \n\t\t\t BY MARGARET ATWOOD IN 1996"<<endl;
+            system("color 2");
+            Sleep(200);
+            cout<<"THE FOUR WINDS: A NOVEL \n\t\t\t BY KRISTIN HANNAH IN 2021"<<endl;
+            Sleep(200);
+            cout<<"GIRL WITH A PEARL EARRING: A SERVANT \n\t\t\t BY TRACY CHEVALIER IN 1999"<<endl;
+            Sleep(200);
+            cout<<"THE OTHER BOLEYN GIRL \n\t\t\t BY PHILIPPA GREGORY IN 2001"<<endl;
+            Sleep(200);
+            cout<<"GONE WITH THE WIND \n\t\t\t BY MARGARET MITCHELL IN 1936"<<endl;
+            Sleep(200);
+            cout<<"THE NIGHTINGALE \n\t\t\t BY KRISTIN HANNAH IN 2015"<<endl;
+            system("color 3");
+            Sleep(200);
+            cout<<"THE UNDERGROUND RAILROAD \n\t\t\t BY COLSON WHITEHEAD IN 2016"<<endl;
+            Sleep(200);
+            cout<<"PACHINKO \n\t\t\t BY MIN JEE LEE IN 2017"<<endl;
+            Sleep(200);
+            cout<<"THE ENGLISH PATIENT \n\t\t\t BY MICHAEL ONDAATJE IN 1992"<<endl;
+            Sleep(200);
+            cout<<"THE PERSONAL LIBRARIAN \n\t\t\t BY HEATHER TERRELL IN 2021"<<endl;
+            Sleep(200);
+            cout<<"ATONEMENT \n\t\t\t BY LAC MCEWAN IN 2001"<<endl;
+            cout<<endl;
         }
         else if(Cat1=="BIOGRAPHY" || Cat1=="biography")
         {
-
+            cout<<" HERE WE HAVE \n SOME HISTORICAL FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color 0");
+            cout<<"WAR AND PEACE \n\t\t\t BY LEO TOLSTOY IN 1867"<<endl;
+            Sleep(200);
+            cout<<"ALL THE LIGHT WE CANNOT SEE \n\t\t\t BY ANTHONY DOERR IN 2014"<<endl;
+            Sleep(200);
+            cout<<"THE PILLARS OF THE EARTH \n\t\t\t BY KEN FOLLETT IN 1989"<<endl;
+            Sleep(200);
+            cout<<"WOLF HALL \n\t\t\t BY HILARY MANTEL IN 2009"<<endl;
+            Sleep(200);
+            cout<<"THE BOOK THIEF \n\t\t\t BY MARKUS ZUSAK IN 2005"<<endl;
+            system("color 1");
+            Sleep(200);
+            cout<<"THE RED TENT \n\t\t\t BY ANITA DIAMANT IN 1997"<<endl;
+            Sleep(200);
+            cout<<"BELOVED \n\t\t\t BY TONI MORRISON IN 1987"<<endl;
+            Sleep(200);
+            cout<<"OUTLANDER \n\t\t\t BY DIANA GABALDON IN 1991"<<endl;
+            Sleep(200);
+            cout<<"A GENTLEMAN IN MOSCOW \n\t\t\t BY AMOR TOWELS IN 2016"<<endl;
+            Sleep(200);
+            cout<<"ALIAS GRACE \n\t\t\t BY MARGARET ATWOOD IN 1996"<<endl;
+            system("color 2");
+            Sleep(200);
+            cout<<"THE FOUR WINDS: A NOVEL \n\t\t\t BY KRISTIN HANNAH IN 2021"<<endl;
+            Sleep(200);
+            cout<<"GIRL WITH A PEARL EARRING: A SERVANT \n\t\t\t BY TRACY CHEVALIER IN 1999"<<endl;
+            Sleep(200);
+            cout<<"THE OTHER BOLEYN GIRL \n\t\t\t BY PHILIPPA GREGORY IN 2001"<<endl;
+            Sleep(200);
+            cout<<"GONE WITH THE WIND \n\t\t\t BY MARGARET MITCHELL IN 1936"<<endl;
+            Sleep(200);
+            cout<<"THE NIGHTINGALE \n\t\t\t BY KRISTIN HANNAH IN 2015"<<endl;
+            system("color 3");
+            Sleep(200);
+            cout<<"THE UNDERGROUND RAILROAD \n\t\t\t BY COLSON WHITEHEAD IN 2016"<<endl;
+            Sleep(200);
+            cout<<"PACHINKO \n\t\t\t BY MIN JEE LEE IN 2017"<<endl;
+            Sleep(200);
+            cout<<"THE ENGLISH PATIENT \n\t\t\t BY MICHAEL ONDAATJE IN 1992"<<endl;
+            Sleep(200);
+            cout<<"THE PERSONAL LIBRARIAN \n\t\t\t BY HEATHER TERRELL IN 2021"<<endl;
+            Sleep(200);
+            cout<<"ATONEMENT \n\t\t\t BY LAC MCEWAN IN 2001"<<endl;
+            cout<<endl;
         }
         else 
         {
