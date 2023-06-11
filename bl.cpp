@@ -1,180 +1,59 @@
-/* THIS CODE IS OUR UNIVERSITY PROJECT 
-I WANT TO MAKE SURE THAT NO CONCEPT OF OOP IS BEING USED IN THIS PROGRAM 
-MOREOVER, THIS PROGRAM IS ONLY AND ONLY FOR SQUAD001
-ANY TYPE OF STEALING THE CODE IS NOT ALLOWED HERE. THOUGH IT IS PUBLIC REPOSITORY, BUT
-IT IS REAALLY NOT FOR EVERYONE 
-THIS CODE IS ONLY FOR:
-MUHAMMAD HASSAN
-UMAR ZULFIQAR
-AMAN MIRZA
-SUBHAN ALI 
-ALL THE COPY RIGHTS ARE SECURED BY THESE MENTIONED ABOVE PEOPLE 
-AT LAST IT IS REQUESTED THAT IF ANY OUTER PERSON LOOKS THIS CODE BEFORE 15 JUNE 2023, HE CAN SUGGEST
-AN EDIT ON MY SNAPCHAT WHICH IS mhassan_0007 */
-#include<iostream>
-#include<windows.h>
-#include<cstring>
-#include<cmath>
-using namespace std;
-int main()
-{
-    system(" cls ");
-    system(" color 5");
-    Sleep(100);
-    cout<<"          .....__* * *         * * * * * * * *                   "<<endl;
-    Sleep(100);
-    cout<<"       ___.....*       *       *                                  "<<endl;
-    Sleep(100);
-    cout<<"       ........*        *      *                                   "<<endl;
-    Sleep(100);
-    system(" color 7");
-    cout<<"     ............*             *                                   "<<endl;
-    Sleep(100);
-    cout<<"                   *           * * * * * * * *                      "<<endl;
-    Sleep(100);
-    cout<<"                     *         *                                   "<<endl;
-    Sleep(100);
-    system(" color D");
-    cout<<"                       *       *                                   "<<endl;
-    Sleep(100);
-    cout<<"    ........ *         *       *                                   "<<endl;
-    Sleep(100);
-    cout<<"       .......*       *        *                                   "<<endl;
-    Sleep(100);
-    cout<<"    ............* * *          *                                   "<<endl;
-    Sleep(5000);
-    system(" cls ");
-    cout<<" \n\n\n\n";
-    Sleep(100);
-    cout<<"                      SPOT-FLIX                                   "<<endl;
-    Sleep(100);
-    cout<<"               EVERYTHING                                            "<<endl;
-    Sleep(100);
-    cout<<"                            YOU                                          "<<endl;
-    Sleep(100);
-    cout<<"                                 NEED                                     "<<endl;
-    Sleep(1000);
-    system(" color C");
-    cout<<"                     IN ONE PLACE                                  "<<endl;
-    Sleep(3000);
-    system(" cls ");
-    cout<<"              READ THOUSANDS OF NOVELS                                  "<<endl<<endl;
-    Sleep(100);
-    cout<<"                WATCH VAST RANGE OF T.V. SERIES AND MOVIES          "<<endl<<endl;
-    Sleep(100);
-    cout<<"                      LISTEN MILLIONS OF SONGS                      "<<endl<<endl;
-    Sleep(100);
-    cout<<"                             FOR FREE                            "<<endl<<endl;
-    Sleep(5000);
-    system(" cls ");
-    cout<<"\n\n\n\n\n\n";
-    cout<<".....";
-    Sleep(100);
-    cout<<".....";
-    Sleep(100);
-    cout<<".....";
-    Sleep(100);
-    cout<<"LOADING";
-    Sleep(100);
-    cout<<".....";
-    Sleep(100);
-    cout<<".....";
-    Sleep(100);
-    cout<<"....."<<endl;
-    Sleep(5000);
-    system(" cls ");
-    char name[500];
-    system(" color 6");
-    cout<<" ENTER YOUR NAME"<<endl;
-    cin.getline(name,500);
-    strlen(name);
+  #include<iostream>
+  using namespace std;
+  int main()
+  {
     int x;
-    x=strlen(name);
-    system(" cls ");
-    for (int b = 0; b <x && !(x>500); b++)
+    // arrays for the english novels with their writer names for science fiction
+    string englishnovelname1[5]={"DUNE","FRANKENSTEIN","THE THREE-BODY PROBLEM","NEUROMANCER","THE LEFT HAND OF DARKNESS"};
+    string englishnovelname2[5]={"THE ULTIMATE HITCHHIKER'S GUIDE","HYPERSION","THE TIME MACHINE","THE MARTIAN","DO ANDROIDS DREAM OF ELECTRIC SHEEPS?"};
+    string englishnovelname3[5]={"SNOW CRASH","A WRINKLE IN TIME","NINETEEN EIGHTY-FOUR","EXHALATION","THE MOON IS THE HARSH MISTRESS"};
+    string englishnovelname4[7]={"THE FIFTH SEASON","BINTI","BRAVE NEW WORLD","ANNIHILATION","KINDRED"};
+    string novelwritername1[5]={"BY FRANK HERBERT IN 1965","BY MARY SHELLY IN 1818"," BY LIU CIXIN IN 2008","BY WILLIAM GIBSON IN 1984","BY URSULA K. LE GUIN IN 1969"};
+    string novelwritername2[5]={"BY DOUGLAS ADAMS IN 1979","BY DAN SIMMONS IN 1989","BY H.G. WELLS IN 1895","BY ANDY WEIR IN 2011","BY PHILIP K. DICK IN 1968"};
+    string novelwritername3[5]={"BY NEAL STEPHENSON IN 1992","BY MADELEINE L'ENGLE IN 1962","BY GEORGE ORWELL IN 1949","BY TED CHIANG IN 2008","BY ROBERT A. HEINLEIN IN 1966"};
+    string novelwritername4[7]={"BY N.K. JEMISIN IN 2015","BY NNEDI OKARAFOR IN 2015","BY ALDOUS HUXLEY IN 1932","BY JEFF VANDERMEER IN 2014","BY OCTAVIA E. BUTLER IN 1979"};
+    string Cati;
+    string Catii;
+    cin>>Cati>>Catii;
+    if ((Cati=="SCIENCE" || Cati=="science")&&(Catii=="FICTION" || Catii=="fiction"))
     {
-        cout<<name[b];
+    switch (x)
+    {
+    case '0':
+    {
+        cout<<" WHAT YOU ARE DOING "<<endl;
+    }    
+        break;
+    case '1':
+    {
+    for (int i = 0; i < 5 ; i++)
+    {
+         cout<<englishnovelname1[i]<<endl;
+         cout<<novelwritername1[i]<<endl;
     }
-    cout<<"      WELCOME      TO     SPOT-FLIX    "<<endl;
-    system(" pause ");
-    system(" cls ");
-    cout<<" WHAT DO YOU WANT TO DO "<<endl<<endl<<endl;
-    cout<<"                        LISTEN SONGS?             "<<endl<<endl<<endl;
-    Sleep(1000);
-    cout<<"             READ NOVELS?             "<<endl<<endl<<endl;
-    Sleep(1000);
-    cout<<"                                     WATCH MOVIES?             "<<endl<<endl<<endl;
-    Sleep(1000);
-    cout<<"                        WATCH T.V. SERIES?             "<<endl<<endl<<endl;
-    Sleep(1000);
-    system("cls ");
-    cout<<"          SELEST ANY ONE OPTION          "<<endl<<endl;
-    cout<<"                   1. S FOR SONGS  "<<endl;
-    cout<<"            2. N FOR NOVELS        "<<endl;
-    cout<<"                   3. M FOR MOVIES "<<endl;
-    cout<<"            4. T FOR T.V. SERIES        "<<endl;
-    Sleep(3000);
-    system(" color D");
-    char interest;
-    cout<<" ENTER YOUR INTEREST:"<<endl<<endl<<endl<<endl;
-     INTEREST:
+    for (int j = 0; j < 5 ; j++)
     {
-        cin>>interest;
+         cout<<englishnovelname1[j]<<endl;
+         cout<<novelwritername1[j]<<endl;
     }
-    if(interest=='N' || interest=='n')   
+    for (int k = 0; k < 5 ; k++)
     {
-        cout<<" GREAT YOU WANT TO READ  NOVELS!"<<endl;
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-         Sleep(2000);
-    system(" cls ");
-    system(" color 6");
-    cout<<"          SELECT ANY ONE OPTION FOR LANGUAGE"<<endl;
-    cout<<"                   1. ENGLISH  "<<endl;
-    cout<<"            2. URDU        "<<endl;
-    cout<<"                   3. PUNJABI  "<<endl;
-    cout<<"            4. KOREAN         "<<endl;
-     cout<<"                   5. HINDI  "<<endl;
-    cout<<"            6. SPANISH        "<<endl;
-    cout<<"                   7. FRENCH  "<<endl;
-    cout<<"            8. ARABIC         "<<endl;
-     cout<<"                   9. GERMAN "<<endl;
-    cout<<"            10. TURKISH        "<<endl;
-    Sleep(3000);
-    string language ;
-    cout<<" ENTER YOUR DESIRED LANGUAGE "<<endl;
-     Language:
-    {
-        cin>>language;
+         cout<<englishnovelname1[k]<<endl;
+         cout<<novelwritername1[k]<<endl;
     }
-    if(language=="ENGLISH" || language=="english")   
+    for (int l = 0; l < 7 ; l++)
     {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-        system("cls");
-        cout<<" SELECT ANY ONE CATEGORY: "<<endl;
-        cout<<"                   1. SCIENCE FICTION  "<<endl;
-        cout<<"        2. HISTORICAL FICTION        "<<endl;
-        cout<<"                   3. MYSTERY  "<<endl;
-        cout<<"            4. FICTION         "<<endl;
-        cout<<"                   5. HORROR  "<<endl;
-        cout<<"            6. FANTASY        "<<endl;
-        cout<<"                   7. ROMANCE  "<<endl;
-        cout<<"            8. BIOGRAPHY         "<<endl;
-        cout<<" WHAT DO YOU WANT TO READ IN ENGLISH NOVELS"<<endl;
-        string Cat1, Cat2;
-     EnglishNovels:
-        {
-            cout<<" ENTER YOUR LOVED CATEGORY OF NOVELS "<<endl;
-            cin>>Cat1>>Cat2;
-        }    
-        if((Cat1=="SCIENCE" || Cat1=="science") && (Cat2=="fiction" || Cat2=="FICTION"))
-        {
-            system("cls");
+         cout<<englishnovelname1[l]<<endl;
+         cout<<novelwritername1[l]<<endl;
+    }
+    }
+    default:
+    cout<<endl;
+        break;
+    }
+  }
+  } 
+             /*system("cls");
             system(" color A");
             cout<<"DUNE                                                    "<<endl;
             cout<<" BY FRANK HERBERT IN 1965"<<endl;
@@ -253,10 +132,10 @@ int main()
             Sleep(2000);
             cout<<" A MEMORY CALLED EMPIRE                                        "<<endl;
             cout<<" BY ARKADY MARTIN IN 2019"<<endl;
-            Sleep(2000);
+            Sleep(2000);*/
 
-        }
-         else if( (Cat1=="HISTORICAL" || Cat1=="historical") && (Cat2=="FICTION" || Cat2=="fiction"))
+        /*}
+        else if( (Cat1=="HISTORICAL" || Cat1=="historical") && (Cat2=="FICTION" || Cat2=="fiction"))
         {
             system("cls");
              system(" color 0");
@@ -752,120 +631,4 @@ int main()
             cout<<" INVALID INPUT "<<endl;
             goto EnglishNovels;
         }
-  
-        
-
-    }
-    else if(language==" URDU " || language=="urdu")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    } 
-    else if(language==" PUNJABI " || language=="punjabi")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" KOREAN " || language=="korean")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" HINDI  " || language=="hindi")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" SPANISH " || language=="spanish")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" FRENCH " || language=="french")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" ARABIC " || language=="arabic")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" GERMAN " || language=="german")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else if(language==" TURKISH " || language=="turkish")   
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        cout<<"..........SEARCHING.........."<<endl;
-    }
-    else 
-    {
-        cout<<" INVALID INPUT"<<endl;
-        cout<<" COMMAND NOT ACCEPTED "<<endl;
-        Sleep(1000);
-        cout<<" TRY AGAIN "<<endl;
-        goto Language;
-    }
-    }
-     else if (interest=='s' || interest=='t')
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-    }
-    else if (interest=='M' || interest=='N')
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-    }
-    else if (interest=='S' || interest=='T')
-    {
-        cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        cout<<" COMMAND ACCEPTED"<<endl;
-    }
-    else 
-    {
-        cout<<" INVALID INPUT "<<endl;
-        cout<<" COMMAND NOT ACCEPTED "<<endl;
-        Sleep(1000);
-        cout<<" TRY AGAIN "<<endl;
-        goto INTEREST;
-    }
-   
-    Sleep(2000);
-    system(" cls ");
-   
-    
-}
+        */

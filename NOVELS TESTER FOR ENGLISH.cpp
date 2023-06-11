@@ -16,96 +16,87 @@ AN EDIT ON MY PHONE NUMBER THAT IS 03009475821 <WHATSAPP ONLY>*/
 using namespace std;
 int main()
 {
-    string Cat1, Cat2;
+    
+    
+    /*string englishnovelname1[5]={"DUNE","FRANKENSTEIN","THE THREE-BODY PROBLEM","NEUROMANCER","THE LEFT HAND OF DARKNESS"};
+    string englishnovelname2[5]={"THE ULTIMATE HITCHHIKER'S GUIDE","HYPERSION","THE TIME MACHINE","THE MARTIAN","DO ANDROIDS DREAM OF ELECTRIC SHEEPS?"};
+    string englishnovelname3[5]={"SNOW CRASH","A WRINKLE IN TIME","NINETEEN EIGHTY-FOUR","EXHALATION","THE MOON IS THE HARSH MISTRESS"};
+    string englishnovelname4[7]={"THE FIFTH SEASON","BINTI","BRAVE NEW WORLD","ANNIHILATION","KINDRED"};
+    string novelwritername1[5]={"BY FRANK HERBERT IN 1965","BY MARY SHELLY IN 1818"," BY LIU CIXIN IN 2008","BY WILLIAM GIBSON IN 1984","BY URSULA K. LE GUIN IN 1969"};
+    string novelwritername2[5]={"BY DOUGLAS ADAMS IN 1979","BY DAN SIMMONS IN 1989","BY H.G. WELLS IN 1895","BY ANDY WEIR IN 2011","BY PHILIP K. DICK IN 1968"};
+    string novelwritername3[5]={"BY NEAL STEPHENSON IN 1992","BY MADELEINE L'ENGLE IN 1962","BY GEORGE ORWELL IN 1949","BY TED CHIANG IN 2008","BY ROBERT A. HEINLEIN IN 1966"};
+    string novelwritername4[7]={"BY N.K. JEMISIN IN 2015","BY NNEDI OKARAFOR IN 2015","BY ALDOUS HUXLEY IN 1932","BY JEFF VANDERMEER IN 2014","BY OCTAVIA E. BUTLER IN 1979"};*/
+    cout<<" ENTER YOUR LOVED CATEGORY OF NOVELS "<<endl;
+    string Cat1; 
+    string Cat2;
      EnglishNovels:
         {
-            cout<<" ENTER YOUR LOVED CATEGORY OF NOVELS "<<endl;
             cin>>Cat1>>Cat2;
         }    
-        if((Cat1=="SCIENCE" || Cat1=="science") && (Cat2=="fiction" || Cat2=="FICTION"))
-        {
-            system("cls");
+        system("cls");
+                 
+            
+             system("cls");
             system(" color A");
-            cout<<"DUNE                                                    "<<endl;
-            cout<<" BY FRANK HERBERT IN 1965"<<endl;
+            cout<<"DUNE         \n\n   BY FRANK HERBERT IN 1965                       "<<endl<<endl;
             Sleep(2000);
-            cout<<"    FRANKENSTEIN                                                "<<endl;
-            cout<<" BY MARY SHELLY IN 1818"<<endl;
+            cout<<"    FRANKENSTEIN         \n\n           BY MARY SHELLY IN 1818                            "<<endl<<endl;
             Sleep(2000);
-            cout<<"                THE THREE-BODY PROBLEM                           "<<endl;
-            cout<<" BY LIU CIXIN IN 2008"<<endl;
+            cout<<"                THE THREE-BODY PROBLEM        \n\n  BY LIU CIXIN IN 2008                   "<<endl<<endl;
             Sleep(2000);
-            cout<<"                                      NEUROMANCER              "<<endl;
-            cout<<" BY WILLIAM GIBSON IN 1984"<<endl;
+            cout<<"                                      NEUROMANCER  \n\n  BY WILLIAM GIBSON IN 1984            "<<endl<<endl;
             Sleep(2000);
-            cout<<"                                                 THE LEFT HAND OF DARKNESS   "<<endl;
-            cout<<" BY URSULA K. LE GUIN IN 1969"<<endl;
+            cout<<"                                                 THE LEFT HAND OF DARKNESS   \n\n BY URSULA K. LE GUIN IN 1969"<<endl<<endl;
              Sleep(5000);
             system("cls");
              system(" color B");
             Sleep(2000);
-            cout<<"                  THE ULTIMATE HITCHHIKER'S GUIDE                  "<<endl;
-            cout<<" BY DOUGLAS ADAMS IN 1979"<<endl;
+            cout<<"                  THE ULTIMATE HITCHHIKER'S GUIDE          \n\n  BY DOUGLAS ADAMS IN 1979        "<<endl<<endl;
             Sleep(2000);
-            cout<<"        HYPERSION                                                   "<<endl;
-            cout<<" BY DAN SIMMONS IN 1989"<<endl;
+            cout<<"        HYPERSION             \n\n            BY DAN SIMMONS IN 1989             "<<endl<<endl;
             Sleep(2000);
-            cout<<"                 THE TIME MACHINE                                   "<<endl;
-            cout<<" BY H.G. WELLS IN 1895"<<endl;
+            cout<<"                 THE TIME MACHINE       \n\n   BY H.G. WELLS IN 1895                            "<<endl<<endl;
             Sleep(2000);
-            cout<<"                                 THE MARTIAN                                    "<<endl;
-            cout<<" BY ANDY WEIR IN 2011"<<endl;
+            cout<<"                                 THE MARTIAN        \n\n         BY ANDY WEIR IN 2011                            "<<endl;
             Sleep(2000);
-            cout<<"                                            DO ANDROIDS DREAM OF ELECTRIC SHEEPS?"<<endl;
-            cout<<" BY PHILIP K. DICK IN 1968"<<endl;
+            cout<<"                                            DO ANDROIDS DREAM OF ELECTRIC SHEEPS?   \n\n   BY PHILIP K. DICK IN 1968"<<endl<<endl;
              Sleep(5000);
             system("cls");
              system(" color C");
             Sleep(2000);
-            cout<<"                                  SNOW CRASH                                     "<<endl;
-            cout<<" BY NEAL STEPHENSON IN 1992"<<endl;
+            cout<<"                                  SNOW CRASH     \n\n      BY NEAL STEPHENSON IN 1992                               "<<endl<<endl;
             Sleep(2000);
-            cout<<"                A WRINKLE IN TIME                                                 "<<endl;
-            cout<<" BY MADELEINE L'ENGLE IN 1962"<<endl;
+            cout<<"                A WRINKLE IN TIME      \n\n       BY MADELEINE L'ENGLE IN 1962          "<<endl<<endl;
             Sleep(2000);
-            cout<<" NINETEEN EIGHTY-FOUR                                                                     "<<endl;
-            cout<<" BY GEORGE ORWELL IN 1949"<<endl;
+            cout<<" NINETEEN EIGHTY-FOUR          \n\n BY GEORGE ORWELL IN 1949                     "<<endl<<endl;
             Sleep(2000);
-            cout<<"                     EXHALATION                                                  "<<endl;
-            cout<<" BY TED CHIANG IN 2008"<<endl;
+            cout<<"                     EXHALATION                 \n\n        BY TED CHIANG IN 2008                                 "<<endl<<endl;
             Sleep(2000);
-            cout<<"                               THE MOON IS THE HARSH MISTRESS                    "<<endl;
-            cout<<" BY ROBERT A. HEINLEIN IN 1966"<<endl;
+            cout<<"                               THE MOON IS THE HARSH MISTRESS      \n\n BY ROBERT A. HEINLEIN IN 1966              "<<endl<<endl;
              Sleep(5000);
             system("cls");
              system(" color D");
             Sleep(2000);
-            cout<<"                                                             THE FIFTH SEASON          "<<endl;
-            cout<<" BY N.K. JEMISIN IN 2015"<<endl;
+            cout<<"                                                             THE FIFTH SEASON      \n\n  BY N.K. JEMISIN IN 2015    "<<endl<<endl;
             Sleep(2000);
-            cout<<"                                                      BINTI                   "<<endl;
-            cout<<" BY NNEDI OKARAFOR IN 2015"<<endl;
+            cout<<"                                                      BINTI      \n\n    BY NNEDI OKARAFOR IN 2015   "<<endl<<endl;
             Sleep(2000);
-            cout<<"                                         BRAVE NEW WORLD                         "<<endl;
-            cout<<" BY ALDOUS HUXLEY IN 1932"<<endl;
+            cout<<"                                         BRAVE NEW WORLD \n\n  BY ALDOUS HUXLEY IN 1932                        "<<endl<<endl;
             Sleep(2000);
-            cout<<"                             ANNIHILATION                                      "<<endl;
-            cout<<" BY JEFF VANDERMEER IN 2014"<<endl;
+            cout<<"                             ANNIHILATION           \n\n        BY JEFF VANDERMEER IN 2014                    "<<endl<<endl;
             Sleep(2000);
-            cout<<"                     KINDRED                                               "<<endl;
-            cout<<" BY OCTAVIA E. BUTLER IN 1979"<<endl;
-             Sleep(5000);
+            cout<<"                     KINDRED           \n\n      BY OCTAVIA E. BUTLER IN 1979                              "<<endl<<endl;
+            Sleep(5000);
             system("cls");
-             system(" color E");
+            system(" color E");
             Sleep(2000);
-            cout<<"             SOLARIS                                                         "<<endl;
-            cout<<" BY STANISLAW LEM IN 1961"<<endl;
+            cout<<"             SOLARIS      \n\n    BY STAINSLAW LEM IN 1961                     "<<endl<<endl;
             Sleep(2000);
-            cout<<" A MEMORY CALLED EMPIRE                                        "<<endl;
-            cout<<" BY ARKADY MARTIN IN 2019"<<endl;
+            cout<<" A MEMORY CALLED EMPIRE       \n\n  BY ARKADY MARTIN IN 2019                 "<<endl<<endl;
             Sleep(2000);
+            system("cls");
 
-        }
+        /*}
         else if( (Cat1=="HISTORICAL" || Cat1=="historical") && (Cat2=="FICTION" || Cat2=="fiction"))
         {
             system("cls");
@@ -601,6 +592,6 @@ int main()
         {
             cout<<" INVALID INPUT "<<endl;
             goto EnglishNovels;
-        }
+        }*/
 
  }
