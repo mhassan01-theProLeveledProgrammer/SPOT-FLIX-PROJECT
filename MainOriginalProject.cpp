@@ -167,6 +167,91 @@ int main()
             std::cout<<" ENTER YOUR LOVED CATEGORY OF NOVELS "<<endl;
             cin>>Cat1>>Cat2;
         }
+        if ((Cat1=="SCIENCE" || Cat1=="science") && (Cat2=="FICTION" || Cat2=="fiction"))
+        {
+            cout<<" HERE WE HAVE \n SOME SCIENCE FICTION NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color A");
+            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965 "<<endl;
+            Sleep(200);
+            cout<<"FRANKENSTEIN \n\t\t\t BY MARY SHELLY IN 1818"<<endl;
+            Sleep(200);
+            cout<<"THE THREE-BODY PROBLEM \n\t\t\t BY LIU CIXIN IN 2008"<<endl;
+            Sleep(200);
+            cout<<"NEUROMANCER \n\t\t\t BY WILLIAM GIBSON IN 1984"<<endl;
+            Sleep(200);
+            cout<<"THE LEFT HAND OF DARKNESS \n\t\t\t BY URSULA K. LE GUIN IN 1969"<<endl;
+            system("color B");
+            Sleep(200);
+            cout<<"THE ULTIMATE HITCHHIKER'S GUIDE \n\t\t\tBY DOUGLAS ADAMS IN 1979 "<<endl;
+            Sleep(200);
+            cout<<"HYPERSION \n\t\t\t BY DAN SIMMONS IN 1989"<<endl;
+            Sleep(200);
+            cout<<"THE TIME MACHINE \n\t\t\t BY H.G. WELLS IN 1895"<<endl;
+            Sleep(200);
+            cout<<"THE MARTIAN \n\t\t\t BY ANDY WEIR IN 2011"<<endl;
+            Sleep(200);
+            cout<<"DO ANDROIDS DREAM OF ELECTRIC SHEEPS? \n\t\t\t BY PHILIP K. DICK IN 1968"<<endl;
+            system("color C");
+            Sleep(200);
+            cout<<" \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<" \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<" \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<" \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<" \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            system("color D");
+            Sleep(200);
+            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+            Sleep(200);
+            cout<<"DUNE \n\t\t\t BY FRANK HERBERT IN 1965"<<endl;
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else if()
+        {
+
+        }
+        else 
+        {
+
+        }
     }
     else if(language=="URDU" || language=="urdu")   
     {
