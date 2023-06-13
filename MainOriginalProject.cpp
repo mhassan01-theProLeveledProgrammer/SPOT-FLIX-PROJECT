@@ -135,7 +135,6 @@ int main()
     std::cout<<"          SELECT ANY ONE OPTION FOR LANGUAGE"<<endl;
     std::cout<<"                   1. ENGLISH  "<<endl;
     std::cout<<"            2. URDU        "<<endl;
-    std::cout<<"                   3. JAPANESE         "<<endl;
     Sleep(3000);
     string language ;
     std::cout<<" ENTER YOUR DESIRED LANGUAGE "<<endl;
@@ -595,6 +594,8 @@ int main()
             std::cout<<"Jannat kay Pattay by Nemrah Ahmed"<<endl;
             Sleep(200);
             std::cout<<"Namal by Nemrah Ahmed"<<endl;
+            Sleep(10000);
+            std::system("cls");
             std::system("color 9");
             Sleep(200);
             std::cout<<"Abdullah by Hashim Nadeem"<<endl;
@@ -607,6 +608,8 @@ int main()
             Sleep(200);
             std::cout<<"Amar Bail by Umera Ahmed"<<endl;
             Sleep(200);
+            Sleep(10000);
+            std::system("cls");
             std::system("color A");
            std::cout<<"Udaas Naslain by Abdullah Hussain"<<endl;
             Sleep(200);
@@ -617,6 +620,8 @@ int main()
             std::cout<<"Aag Ka Darya by Qurratulain Hyder"<<endl;
             Sleep(200);
            std::cout<<"Baab e Ishq by Nayab Jillani"<<endl;
+           Sleep(10000);
+           std::system("cls");
             std::system("color B");
             Sleep(200);
            std::cout<<"Kasa-e-Dil by Bushra Siyal"<<endl;
@@ -626,6 +631,8 @@ int main()
            std::cout<<"Marg e Tamanna by Mawra Talha"<<endl; 
             Sleep(200);
            std::cout<<"Laa by Mansha Mohsin Al"<<endl;
+           Sleep(10000);
+           std::system("cls");
             std::system("color C");
             Sleep(200);
             std::cout<<"sapas guzar  by memoona sadaf"<<endl;
@@ -637,6 +644,8 @@ int main()
             std::cout<<"mann ainah sazam by farah bhutto"<<endl;
             Sleep(200);
            std::cout<<"aks e roshan by iram naheed niazi"<<endl;
+           Sleep(10000);
+           std::system("cls");
             std::system("color D");
             Sleep(200);
             std::cout<<"hasil e wafa tum ho  by neelam riasat"<<endl;
@@ -660,15 +669,8 @@ int main()
             std::cout<<"ishq javdani  by gul arbab"<<endl;
             Sleep(200);
             std::cout<<"Tash Ghar  by Aymal Raza"<<endl;
-    } 
-    else if(language=="JAPANESE" || language=="japanese")   
-    {
-        std::cout<<" VALID INPUT"<<endl;
-        Sleep(1000);
-        std::cout<<" COMMAND ACCEPTED"<<endl;
-        Sleep(1000);
-        std::cout<<"..........SEARCHING.........."<<endl;
     }
+    
     else 
     {
         std::cout<<" INVALID INPUT"<<endl;
@@ -678,4 +680,322 @@ int main()
         goto Language;
     }
     }
+    if(interest=='M' || interest=='m')   
+    {
+        std::cout<<" YOU WANNA WATCH MOVIES!"<<endl;
+        std::cout<<" VALID INPUT"<<endl;
+        Sleep(1000);
+        std::cout<<" COMMAND ACCEPTED"<<endl;
+        Sleep(2000);
+    std::system(" cls ");
+    std::system(" color 6");
+    std::cout<<"          SELECT ANY ONE OPTION FOR LANGUAGE"<<endl;
+    std::cout<<"                   1. ENGLISH  "<<endl;
+    std::cout<<"            2. URDU        "<<endl;
+     std::cout<<"                   3. HINDI  "<<endl;
+    std::cout<<"            4. PUNJABI        "<<endl;
+    Sleep(3000);
+    string language1 ;
+    std::cout<<" ENTER YOUR DESIRED LANGUAGE "<<endl;
+    Language1:
+    {
+        cin>>language1;
+    }
+    if(language1=="ENGLISH" || language1=="english")   
+    {
+        std::cout<<" VALID INPUT"<<endl;
+        Sleep(1000);
+        std::cout<<" COMMAND ACCEPTED"<<endl;
+        Sleep(1000);
+        std::cout<<"..........SEARCHING.........."<<endl;
+        std::system("cls");
+        std::cout<<" SELECT ANY ONE CATEGORY: "<<endl;
+        std::cout<<"                   1. ACTION  "<<endl;
+        std::cout<<"        2. CRIME        "<<endl;
+        std::cout<<"                   3. ADVENTURE  "<<endl;
+        std::cout<<"            4. DRAMA         "<<endl;
+        std::cout<<"                   5. COMEDY  "<<endl;
+        std::cout<<"            6. HORROR        "<<endl;
+        std::cout<<"                   7. ROMANTIC-COMEDY  "<<endl;
+        std::cout<<"            8.FANTASY          "<<endl;
+        std::cout<<"                    9.WAR STORIES          "<<endl;
+        std::cout<<"      10.PSYCHOLOGICAL THRILLER          "<<endl;
+        std::cout<<" WHAT DO YOU WANT TO READ IN ENGLISH NOVELS"<<endl;
+        string Cat3;
+    EnglishMovies:
+        {
+            std::cout<<" ENTER YOUR LOVED CATEGORY OF MOVIES "<<endl;
+            cin>>Cat3;
+        }
+        if (Cat3=="ACTION" || Cat3=="action")
+        {
+            std::cout<<" HERE WE HAVE \n\t SOME ACTION MOVIES \n\t\t YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            std::system("cls");
+            std::system("color A");
+            std::cout<<"Die Hard (1988) \n Aliens (1986)"<<endl;
+            std::cout<<"The Dark Knight (2008) \n Seven Samurai (1954) \n Terminator 2: Judgment Day (1991)"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color B");
+            Sleep(200);
+            std::cout<<"Raiders of the Lost Ark (1981) \n The Matrix (1999) \n Enter the Dragon (1973) \n John Wick \t\t  CHAPTER 1,2,3,4 \n American Sniper (2014)"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color C");
+            Sleep(200);
+            std::cout<<"Dunkirk (2017) \n Oldboy (2003) \n Blade Runner 2049 (2017) \n Hot Fuzz (2007)"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::cout<<endl;
+        }
+        else if(Cat3=="CRIME" || Cat3=="crime")
+        {
+            std::cout<<" HERE WE HAVE \n SOME CRIME BASED MOVIES \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            std::system("cls");
+            std::system("color 0");
+            Sleep(10000);
+            std::system("color 1");
+            std::cout<<"Goodfellas (1990) \n The Godfather Part II (1974) \n Scarface (1983) \n City Of God (2002) \n Drive (2011)"<<endl;
+            Sleep(10000);
+            std::system("color 2");
+            std::cout<<"Taxi Driver (1976) \n The Irishman (2019) \n Snatch (2000) \n In Bruges (2008) \n Lawless (2012)"<<endl;
+            Sleep(10000);
+            std::system("color 3");
+            std::cout<<"Pulp Fiction (1994) \n The Departed (2006) \n American Gangster (2007) \n Killing them Softly (2012) \n The Fast and the Furious (2001)"<<endl;
+            Sleep(10000);
+            std::system("color 4");
+            std::cout<<endl;
+        }
+        else if(Cat3=="ADVENTURE" || Cat3=="adventure")
+        {
+            cout<<" HERE WE HAVE \n SOME ADVENTUES MOVIES \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color 4");
+            cout<<"Wild (I) (2014) \n The Three Musketeers (1973) \n The Mask of Zorro (1998) \n The Revenant (I) (2015) \n The Hobbit: An Expected Journey"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 5");
+            std::cout<<"The Jungle Book (2016) \n Pirates of the Caribbean: The Curse of the Black Pearl (2003) \n King Kong (2005) \n  Avatar (2009) \n Star Wars: Episode IV - A New Hope (1977)"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 6");
+            cout<<"Jaws (1975) \n Jurassic Park (1993) \n Indiana Jones and the Last Crusade (1989) \n The Lord of the Rings: The Return of the King (2003) \n Indiana Jones and the Raiders of the Lost Ark (1981)"<<endl;
+            Sleep(10000);
+            std::system("cls");   
+        }
+        else if(Cat3=="DRAMA" || Cat3=="drama")
+        {
+            cout<<" HERE WE HAVE \n SOME DRAMAS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color 7");
+            cout<<"Gran Torino (2008) \n A Very Long Engagement (2004) \n The Green Mile (1999) \n Little Miss Sunshine (2006) \n Forrest Gump (1994)"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 8");
+            std::cout<<"A Separation (2011) \n Apocalypto (2006) \n The Curious Case of Benjamin Button (2008) \n Gone Girl (2014) \n Inglourious Basterds (2009)"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 9");
+            cout<<"Catch Me If You Can (2002) \n Bridge of Spies (2015) \n Meet Joe Black (1998) \n Blue Jasmine (2013) \n The Shawshank Redemption (1994)"<<endl;
+            Sleep(10000);
+            std::cout<<endl;
+        }
+        else if(Cat3==")
+        {
+            cout<<" HERE WE HAVE \n SOME HORROR NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            system("cls");
+            system("color B");
+            cout<<"THE HAUNTING OF HILL HOUSE \n\t\t\t BY SHIRLEY JACKSON "<<endl;
+            Sleep(200);
+            cout<<"DRACULA \n\t\t\t BY BRAM STOKER"<<endl;
+            Sleep(200);
+            cout<<"RING \n\t\t\t BY KOJI SUZUKI"<<endl;
+            Sleep(200);
+            cout<<"GHOST STORY \n\t\t\t BY PETER STRAUB"<<endl;
+            Sleep(200);
+            std::cout<<"IT \n\t\t\t BY STEPHEN KING"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color C");
+            Sleep(200);
+            std::cout<<"THE EXORCIST \n\t\t\t BY WILLIAM PETER BLATTY"<<endl;
+            Sleep(200);
+            std::cout<<"THE SHINING \n\t\t\t BY STEPHEN KING"<<endl;
+            Sleep(200);
+            std::cout<<"HOUSE OF LEAVES \n\t\t\t BY MARK Z."<<endl;
+            Sleep(200);
+            std::cout<<"THE HUNGER \n\t\t\t BY ALMA KATSU"<<endl;
+            Sleep(200);
+            std::cout<<"BIRD BOX \n\t\t\t BY JOSH MALERMAN"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color D");
+            Sleep(200);
+            std::cout<<"INTERVIEW WITH THE VAMPIRE \n\t\t\t BY ANNE RICE"<<endl;
+            Sleep(200);
+            std::cout<<"THE OTHER \n\t\t\t BY TOM TYRON"<<endl;
+            Sleep(200);
+            std::cout<<"LET THE RIGHT ONE IN \n\t\t\t BY TOM TYRON"<<endl;
+            Sleep(200);
+            std::cout<<"THE WOMAN IN BLACK \n\t\t\t BY SUSAN HILL"<<endl;
+            Sleep(200);
+            std::cout<<"WORLD WAR Z \n\t\t\t BY MAX BROOKS"<<endl;
+            std::cout<<endl;
+        }
+        else if(Cat1=="FANTASY" || Cat1=="fantasy")
+        {
+            std::cout<<" HERE WE HAVE \n SOME FANTASY BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            std::system("cls");
+            std::system("color E");
+            std::cout<<"THE NAME OF THE WIND \n\t\t\t BY PATRICK ROTHFUSS"<<endl;
+            Sleep(200);
+            std::cout<<"A GAME OF THRONES \n\t\t\t BY GEORGE R. R. MARTIN"<<endl;
+            Sleep(200);
+            std::cout<<"THE FIFTH SEASON \n\t\t\t BY N. K. JEMISINE"<<endl;
+            Sleep(200);
+            std::cout<<"THE WAY OF KINGS \n\t\t\t BY BRANDON SANDERSON"<<endl;
+            Sleep(200);
+            std::cout<<"THE EYE OF THE WORLD \n\t\t\t BY ROBERT JORDAN"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 1");
+            Sleep(200);
+            std::cout<<"THE LIES OF LOCKE LAMORA \n\t\t\t BY SCOTT LYNCH"<<endl;
+            Sleep(200);
+            std::cout<<"ASSASSIN APPRENTICE \n\t\t\t BY ROBIN HOOB"<<endl;
+            Sleep(200);
+            std::cout<<"A WIZARD OF EARTHSEA \n\t\t\t BY URSULA K. LE GUIN"<<endl;
+            Sleep(200);
+            std::cout<<"THE LORD OF THE RINGS \n\t\t\t BY J. R. R. TOLKIEN"<<endl;
+            Sleep(200);
+            std::cout<<"THE NIGHT CIRCUS \n\t\t\t BY ENN MORGENSTERN"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 2");
+            Sleep(200);
+            std::cout<<"MISTBORN: THE FINAL EMPIRE \n\t\t\t BY BRANDON SANDERSON"<<endl;
+            Sleep(200);
+            std::cout<<"SIX OF CROWS \n\t\t\t BY LEIGH BARDUGO"<<endl;
+            Sleep(200);
+            std::cout<<"AMERICAN GODS \n\t\t\t BY NEIL GAIMAN"<<endl;
+            Sleep(200);
+            std::cout<<"THE BLADE ITSELF \n\t\t\t BY JOE ABERCROMBIE"<<endl;
+            Sleep(200);
+            std::cout<<"THE POPPY WAR \n\t\t\t BY R. F. KUANG"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 3");
+            Sleep(200);
+            std::cout<<"THE COLOUR OF MAGIC \n\t\t\t BY TERRY PRATCHETT"<<endl;
+            Sleep(200);
+            std::cout<<"GARDENS OF THE MOON \n\t\t\t BY STEVEN ERICKSON"<<endl;
+            Sleep(200);
+            std::cout<<"CHILDREN OF BLOOD AND BONE \n\t\t\t BY TOMI ADEYEMI"<<endl;
+            Sleep(200);
+            std::cout<<"THE ONCE AND FUTURE KING \n\t\t\t BY T. H. WHITE"<<endl;
+            Sleep(200);
+            std::cout<<"A DARKER SHADE OF MAGIC \n\t\t\t BY V. E. SCHWAB"<<endl;
+            std::cout<<endl;
+        }
+        else if(Cat1=="ROMANCE" || Cat1=="romance")
+        {
+            std::cout<<" HERE WE HAVE \n SOME ROMANTIC NOVELS \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            std::system("cls");
+            std::system("color 4");
+            std::cout<<"THE KISS QUOTIENT \n\t\t\t BY.........."<<endl;
+            Sleep(200);
+            std::cout<<"THE HATING GAME: A NOVEL \n\t\t\t BY SALLY THORNE"<<endl;
+            Sleep(200);
+            std::cout<<"RED, WHITE & ROYAL BLUE \n\t\t\t BY CASSEY MCQUISTON"<<endl;
+            Sleep(200);
+            std::cout<<"SEVEN DAYS IN JUNE \n\t\t\t BY TIA WILLIAMS"<<endl;
+            Sleep(200);
+            std::cout<<"THE NOTEBOOK \n\t\t\t BY NICHOLAS SPARKS"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 5");
+            Sleep(200);
+            std::cout<<"CALL ME BY YOUR NAME \n\t\t\t BY ANDRE ACIMAN"<<endl;
+            Sleep(200);
+            std::cout<<"THE TIME TRAVELER'S WIFE \n\t\t\t BY AUDREY NIFFENEGGER"<<endl;
+            Sleep(200);
+            std::cout<<"BOOK LOVERS \n\t\t\t BY EMILY HENRY"<<endl;
+            Sleep(200);
+            std::cout<<"ELEANOR & PARK \n\t\t\t BY RAINBOW ROWELL"<<endl;
+            Sleep(200);
+            std::cout<<"VISION IN WHITE \n\t\t\t BY NORA ROBERTS"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 6");
+            Sleep(200);
+            std::cout<<"BARED TO YOU \n\t\t\t BY SYLVIA DAY"<<endl;
+            Sleep(200);
+            std::cout<<"THE DUKE AND I \n\t\t\t BY JULIA QUINN"<<endl;
+            Sleep(200);
+            std::cout<<"THE WEDDING DATE \n\t\t\t BY JASMINE GUILLORY"<<endl;
+            Sleep(200);
+            std::cout<<"TO ALL THE BOYS I'VE LOVED BEFORE \n\t\t\t BY JENNY HAN"<<endl;
+            Sleep(200);
+            std::cout<<"YOU HAD ME AT HOLA \n\t\t\t BY ALEXIS DARIA"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 7");
+            Sleep(200);
+            std::cout<<"INDIGO \n\t\t\t BY BEVERLY JENKINS"<<endl;
+            Sleep(200);
+            std::cout<<"THE PROPOSAL \n\t\t\t BY JASMINE GUILLORY"<<endl;
+            Sleep(200);
+            std::cout<<endl;
+        }
+        else if(Cat1=="BIOGRAPHY" || Cat1=="biography")
+        {
+            std::cout<<" HERE WE HAVE \n SOME BIOGRAPHIES \n YOU WOULD LOVE"<<endl;
+            Sleep(2000);
+            std::system("cls");
+            std::system("color 8");
+            std::cout<<"STEVE JOBS \n\t\t\t BY WALTER ISAACSON"<<endl;
+            Sleep(200);
+            std::cout<<"THE AUTOBIOGRAPHY OF BENJAMIN FRANKLIN \n\t\t\t BY ............."<<endl;
+            Sleep(200);
+            std::cout<<"BECOMING \n\t\t\t BY MICHELLE OBAMA"<<endl;
+            Sleep(200);
+            std::cout<<"ELON MUSK \n\t\t\t BY ASHLEE VANCE"<<endl;
+            Sleep(200);
+            std::cout<<"SHOE DOG \n\t\t\t BY PHIL KNIGHT"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color 9");
+            Sleep(200);
+            std::cout<<"LEONARDO DA VINCI \n\t\t\t BY WALTER ISAACSON"<<endl;
+            Sleep(200);
+            std::cout<<"INTO THE WILD \n\t\t\t BY JON KRAKAUER"<<endl;
+            Sleep(200);
+            std::cout<<"THE STORY OF MY LIFE \n\t\t\t BY HELEN KELLER"<<endl;
+            Sleep(200);
+            std::cout<<"JOHN ADAMS \n\t\t\t BY DAVID MCCULLOUGH"<<endl;
+            Sleep(200);
+            std::cout<<"JUST KIDS \n\t\t\t BY PATTI SMITH"<<endl;
+            Sleep(10000);
+            std::system("cls");
+            std::system("color A");
+            Sleep(200);
+            std::cout<<"OPEN \n\t\t\t BY ANDRE AGASSI"<<endl;
+            Sleep(200);
+            std::cout<<"BORN A CRIME \n\t\t\t BY TERVOOR NOAH"<<endl;
+            Sleep(200);
+            std::cout<<"BOSSYPANTS \n\t\t\t BY TINA FEY"<<endl;
+            Sleep(200);
+            std::cout<<"LONG WALK TO FREEDOM \n\t\t\t BY NELSON MANDELA"<<endl;
+            std::cout<<endl;
+    
+
 }
+    }
+    }
