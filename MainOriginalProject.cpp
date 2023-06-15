@@ -1095,7 +1095,6 @@ else
     system ("cls");
     cout<<" PASSWORD UNACCEPTABLE"<<endl;
     goto asking;
-}        
 }
-
-
+return 0;         
+}
