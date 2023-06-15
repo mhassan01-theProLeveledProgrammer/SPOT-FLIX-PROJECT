@@ -16,9 +16,9 @@ ALL THE COPY RIGHTS ARE SECURED BY THESE MENTIONED ABOVE PEOPLE*/
 using namespace std;
 int passcode(int fourdnum)
 {
-    cout<<" FIRST FLEET SECURITY PANEL "<<endl;
+    cout<<" WELCOME TO FIRST FLEET SECURITY PANEL "<<endl;
     Sleep(2000);
-    std::cout<<" ENTER YOUR FOUR DIGIT CODE TO LOGIN "<<endl;
+    std::cout<<" \n\t \n\t\t \n\t\t\t \n\t\t\t ENTER YOUR FOUR DIGIT CODE TO LOGIN "<<endl;
     Sleep(2000);
     std::cout<<endl<<endl<<endl;
     std::cout<<" ENTER IT NOW "<<endl;
@@ -36,40 +36,40 @@ int main()
     {
     std::system("cls");
     std::system(" color A");
-    Sleep(900);
+    Sleep(100);
     std::cout<<"          .....__* * *         * * * * * * * *                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color B");
     std::cout<<"       ___.....*       *       *                                  "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color C");
     std::cout<<"       ........*        *      *                                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color D");
     std::cout<<"     ............*             *                                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color E");
     std::cout<<"                   *           * * * * * * * *                      "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color 0");
     std::cout<<"                     *         *                                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color 1");
     std::cout<<"                       *       *                                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color 2");
     std::cout<<"    ........ *         *       *                                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color 3");
     std::cout<<"       .......*       *        *                                   "<<endl;
-    Sleep(900);
+    Sleep(100);
     std::system(" color 4");
     std::cout<<"    ............* * *          *                                   "<<endl;
-    Sleep(5000);
+    Sleep(3000);
     std::system("cls");
     std::cout<<endl<<endl<<endl;
     std::cout<<"\n\n\n\t\t\t MADE BY \n\n\n\t\t\t\t\t\t FIRST FLEET"<<endl;
-    Sleep(5000);
+    Sleep(3000);
     std::system(" cls ");
     std::cout<<" \n\n\n\n";
     Sleep(100);
@@ -82,16 +82,16 @@ int main()
     std::cout<<"                                 NEED                                     "<<endl;
     Sleep(1000);
     std::system(" color C");
-    std::cout<<"                     IN ONE PLACE                                  "<<endl;
+    std::cout<<"                     IN  ONE   PLACE                                  "<<endl;
     Sleep(3000);
     std::system(" cls ");
     std::cout<<"              READ THOUSANDS OF NOVELS                                  "<<endl<<endl;
     Sleep(100);
     std::cout<<"                \t WATCH VAST RANGE OF T.V. SERIES AND MOVIES          "<<endl<<endl;
     Sleep(100);
-    std::cout<<"                      \t LISTEN MILLIONS OF SONGS                      "<<endl<<endl;
+    std::cout<<"                      \t\t LISTEN MILLIONS OF SONGS                      "<<endl<<endl;
     Sleep(100);
-    std::cout<<"                             \t FOR FREE                            "<<endl<<endl;
+    std::cout<<"                             \t\t\t FOR FREE                            "<<endl<<endl;
     Sleep(5000);
     std::system(" cls ");
     std::cout<<"\n\n\n\n\n\n";
@@ -110,18 +110,18 @@ int main()
     std::cout<<"....."<<endl;
     Sleep(5000);
     std::system(" cls ");
-    /*char name[500];
+    char name[500];
     std::system(" color 6");
     std::cout<<" ENTER YOUR NAME"<<endl;
-    cin.getline(name,500);
-    strlen(name);
     int x;
+    strlen(name);
     x=strlen(name);
+    cin.getline(name,x);
     std::system(" cls ");
     for (int b = 0; b <x && !(x>500); b++)
     {
         std::cout<<name[b];
-    }*/
+    }
     std::cout<<"      WELCOME      TO     SPOT-FLIX    "<<endl;
     std::system(" pause ");
     std::system(" cls ");
@@ -1037,11 +1037,11 @@ int main()
             Sleep(2000);
             system("cls");
             system("color A");
-            std::cout<<" DILWALAY DULHANIA LAY JAIN GAY \n GANGS OF VASSEYPUR \n DRISHYAM 2 \n KGF CHAPTER2 \n THAPPAD \n RRR \n ZINDAGI NA MILAY GI DOBARA "<<endl;
+            std::cout<<"AKIRA \n UNGLI HINI \n SHOLAY \n DILWALAY DULHANIA LAY JAIN GAY \n GANGS OF VASSEYPUR \n DRISHYAM 2 \n KGF CHAPTER2 \n THAPPAD \n RRR \n ZINDAGI NA MILAY GI DOBARA "<<endl;
             Sleep(10000);
             std::system("cls");
             std::system("color B");
-            std::cout<<"BADLA \n LAGAAN \n JAI BHIM \n DRISHYAM \n ANDHADHUN \n BARFI \n RAAZI \n SECTION 375 "<<endl;
+            std::cout<<"BADLA \n LAGAAN \n JAI BHIM \n KILL DILL \n TERAY BIN LADEN \n DRISHYAM \n ANDHADHUN \n BARFI \n RAAZI \n SECTION 375 "<<endl;
             Sleep(10000);
             std::system("cls");
             std::system("color C");
@@ -1050,7 +1050,7 @@ int main()
             std::cout<<endl;
             system("cls");
             system("color D");
-            std::cout<<"RANG DE BASANTI \n SULTAN \n SAAHO \n JERSEY \n OMG: OH MY GOD! \n PAAN SINGH TOMAR"<<endl;    
+            std::cout<<"BAJI RAO MASTANI \n RANG DE BASANTI \n SULTAN \n SAAHO \n JERSEY \n OMG: OH MY GOD! \n PAAN SINGH TOMAR"<<endl;    
             Sleep(10000);
             std::system("cls");
             std::system("color E");
@@ -1064,7 +1064,7 @@ int main()
     else if(language1=="PUNJABI" || language1=="punjabi")
     {
         std::cout<<"AEDHAR ASSI \n\t TUHANU \n\t\t TUHADDI PASAAND DI \n\t\t\t PUNJABI MOVIES WAKHAWAN GAY"<<endl;
-            Sleep(2000);
+            Sleep(10000);
             system("cls");
             system("color A");
             std::cout<<"CARRY ON JATTA \n CARRY ON  JATA 2 \n ARDAAS \n ANGREJ \n JUTT&JULIET \n PUNJAB 1984 \n SHARREQ \n QISMAT \n LOVE PUNJAB"<<endl;
@@ -1093,11 +1093,11 @@ int main()
         cout<<" INVALID INPUT "<<endl;
         goto Language1; 
     }
-}
-
+}    
     }
 else
 {
+    system ("cls");
     cout<<" PASSWORD UNACCEPTABLE"<<endl;
     goto asking;
 }
