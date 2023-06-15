@@ -71,6 +71,9 @@ int main()
     std::cout<<"\n\n\n\t\t\t MADE BY \n\n\n\t\t\t\t\t\t FIRST FLEET"<<endl;
     Sleep(3000);
     std::system(" cls ");
+    cout<<" PREPARING AUTHORIZED ACCESS"<<endl;
+    Sleep(2000);
+    system("cls");
     std::cout<<" \n\n\n\n";
     Sleep(100);
     std::cout<<"                      SPOT-FLIX                                   "<<endl;
