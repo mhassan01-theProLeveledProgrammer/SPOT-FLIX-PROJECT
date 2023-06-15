@@ -1,6 +1,6 @@
 /* THIS CODE IS OUR UNIVERSITY PROJECT 
 I WANT TO MAKE SURE THAT NO CONCEPT OF OOP IS BEING USED IN THIS PROGRAM 
-MOREOVER, THIS PROGRAM IS ONLY AND ONLY FOR SEVENTH FLEET.
+MOREOVER, THIS PROGRAM IS ONLY AND ONLY FOR FIRST FLEET.
 ANY TYPE OF STEALING THE CODE IS NOT ALLOWED HERE. THOUGH IT IS PUBLIC REPOSITORY, BUT
 IT IS REAALLY NOT FOR EVERYONE 
 THIS CODE IS ONLY FOR:
@@ -83,7 +83,7 @@ int main()
     Sleep(1000);
     std::system(" color C");
     std::cout<<"                     IN  ONE   PLACE                                  "<<endl;
-    Sleep(3000);
+    Sleep(5000);
     std::system(" cls ");
     std::cout<<"              READ THOUSANDS OF NOVELS                                  "<<endl<<endl;
     Sleep(100);
@@ -110,18 +110,6 @@ int main()
     std::cout<<"....."<<endl;
     Sleep(5000);
     std::system(" cls ");
-    char name[500];
-    std::system(" color 6");
-    std::cout<<" ENTER YOUR NAME"<<endl;
-    int x;
-    strlen(name);
-    x=strlen(name);
-    cin.getline(name,x);
-    std::system(" cls ");
-    for (int b = 0; b <x && !(x>500); b++)
-    {
-        std::cout<<name[b];
-    }
     std::cout<<"      WELCOME      TO     SPOT-FLIX    "<<endl;
     std::system(" pause ");
     std::system(" cls ");
@@ -244,7 +232,6 @@ int main()
             Sleep(200);
             std::cout<<"KINDRED \n\t\t\t BY OCTAVIA E. BUTLER IN 1979"<<endl;
             Sleep(200);
-            std::cout<<endl;
         }
         else if((Cat1=="HISTORICAL" || Cat1=="historical") && (Cat2=="FICTION" || Cat2=="fiction"))
         {
@@ -599,7 +586,7 @@ int main()
         }
         else 
         {
-            std::cout<<" INVALID INPUT"<<endl;
+            cout<<" YOU HAVE MADE A MISTAKE WHILE GIVING THE GENRE OF NOVELS"<<endl;
             goto EnglishNovels;
         }
     }
@@ -696,14 +683,9 @@ int main()
             Sleep(200);
             std::cout<<"Tash Ghar  by Aymal Raza"<<endl;
     }
-    
     else 
     {
-        std::cout<<" INVALID INPUT"<<endl;
-        std::cout<<" COMMAND NOT ACCEPTED "<<endl;
-        Sleep(1000);
-        std::cout<<" TRY AGAIN "<<endl;
-        goto Language;
+        cout<<" ERROR OCCURED TRY AFTER SOME TIME"<<endl;
     }
     }
     if(interest=='M' || interest=='m')   
@@ -956,7 +938,7 @@ int main()
         else 
         {
             cout<<" INVALID INPUT"<<endl;
-            cout<<" ENTER THE CORRECT NAME"<<endl;
+            cout<<" ENTER THE VALID GENRE"<<endl;
             goto EnglishMovies;
         }
     }
@@ -1094,13 +1076,26 @@ int main()
         goto Language1; 
     }
 }    
+    else if (interest=='S' || interest=='s')
+    {
+       cout<<" SONGS "<<endl; 
+    }
+    else if (interest=='T' || interest=='t')
+    {
+        cout<<" TELVISION SERIES"<<endl;
+    }
+    else 
+    {
+        cout<<" INVALID INPUT "<<endl;
+        goto INTEREST;
+    }
     }
 else
 {
     system ("cls");
     cout<<" PASSWORD UNACCEPTABLE"<<endl;
     goto asking;
-}
+}        
 }
 
 
