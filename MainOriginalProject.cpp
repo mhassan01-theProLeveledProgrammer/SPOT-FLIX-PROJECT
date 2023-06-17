@@ -13,6 +13,7 @@ ALL THE COPY RIGHTS ARE SECURED BY THESE MENTIONED ABOVE PEOPLE*/
 #include<windows.h>
 #include<cmath>
 #include<cstdlib>
+#include<fstream>
 using namespace std;
 int passcode(int fourdnum)
 {
@@ -688,10 +689,11 @@ int main()
     }
     else 
     {
-        cout<<" ERROR OCCURED TRY AFTER SOME TIME"<<endl;
+        cout<<" ERROR OCCURED TRY AGAIN"<<endl;
+        goto Language;
     }
     }
-    if(interest=='M' || interest=='m')   
+    else if(interest=='M' || interest=='m')   
     {
         std::cout<<" YOU WANNA WATCH MOVIES!"<<endl;
         std::cout<<" VALID INPUT"<<endl;
@@ -1078,10 +1080,68 @@ int main()
         cout<<" INVALID INPUT "<<endl;
         goto Language1; 
     }
-}    
+    }    
     else if (interest=='S' || interest=='s')
     {
-       cout<<" SONGS "<<endl; 
+        std::cout<<" YOU WANNA LISTEN SONGS!"<<endl;
+        std::cout<<" VALID INPUT"<<endl;
+        Sleep(1000);
+        std::cout<<" COMMAND ACCEPTED"<<endl;
+        Sleep(2000);
+    std::system(" cls ");
+    std::system(" color 6");
+    std::cout<<"          SELECT ANY ONE OPTION FOR LANGUAGE"<<endl;
+    std::cout<<"                   1. ENGLISH  "<<endl;
+    std::cout<<"            2. URDU        "<<endl;
+    std::cout<<"                   3. HINDI  "<<endl;
+    std::cout<<"            4. KOREAN  "<<endl;
+    std::cout<<"                   5. MY FAVOURITES  "<<endl;
+    std::cout<<"           6. FOLK  "<<endl;
+	Sleep(3000);
+    string language9 ;
+    std::cout<<" ENTER YOUR DESIRED LANGUAGE "<<endl;
+    Language9:
+    {
+        cin>>language9;
+    }
+    if(language9=="ENGLISH" || language9=="english")   
+    {
+        fstream songsenglish;
+        songsenglish.open("englishProsongs.txt", ios::in);
+
+    }
+    else if (language9=="URDU" || language9=="urdu")
+    {  
+        fstream songsurdu;
+        songsurdu.open("urduProsongs.txt", ios::in);
+    }
+    else if(language9=="HINDI" || language9=="hindi")
+    {
+        fstream songshindi;
+        songshindi.open("hindiProsongs.txt", ios::in);
+    }
+    else if(language9=="KOREAN" || language9=="korean")
+    {
+        fstream songskorean;
+        songskorean.open("koreanProsongs.txt", ios::in);
+    }
+    else if(language9=="favourites" || language9=="FAVOURITES")
+    {
+    	fstream songsfav;
+    	songsfav.open("favProsongs.txt",ios::in);
+	}
+	else if(language9=="folk" || language9=="FOLK")
+    {
+    	fstream songsfav;
+    	songsfav.open("folkProsongs.txt",ios::in);
+	}
+    else 
+    {
+        cout<<" INVALID INPUT "<<endl;
+        cout<<" ENTER THE LANGUAGE AGAIN"<<endl;
+        goto Language9;
+    }
+    
     }
     else if (interest=='T' || interest=='t')
     {
