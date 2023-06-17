@@ -1106,9 +1106,23 @@ int main()
     }
     if(language9=="ENGLISH" || language9=="english")   
     {
-        fstream songsenglish;
-        songsenglish.open("englishProsongs.txt", ios::in);
-
+        cin.ignore();
+        fstream file;
+        file.open("englishProsongs.txt",ios::in);
+        //file<<" I AM HASSAN"<<endl;
+        if(file.is_open())
+        {
+            string line;
+            while (getline(file, line))
+            {
+                cout << line << endl;
+            }
+            file.close();
+        }
+        else
+        {
+            cout << "Unable to open file" << endl;
+        }
     }
     else if (language9=="URDU" || language9=="urdu")
     {  
