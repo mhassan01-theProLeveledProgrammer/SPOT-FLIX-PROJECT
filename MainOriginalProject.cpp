@@ -11,7 +11,6 @@ SUBHAN ALI
 ALL THE COPY RIGHTS ARE SECURED BY THESE MENTIONED ABOVE PEOPLE*/
 #include<iostream>
 #include<windows.h>
-#include<cmath>
 #include<cstdlib>
 #include<fstream>
 using namespace std;
@@ -72,7 +71,7 @@ int main()
     std::cout<<"\n\n\n\t\t\t MADE BY \n\n\n\t\t\t\t\t\t FIRST FLEET"<<endl;
     Sleep(3000);
     std::system(" cls ");
-    cout<<" PREPARING AUTHORIZED ACCESS"<<endl;
+    cout<<" \n\n\n\n\n \t\t\t\t\t\t\t PREPARING AUTHORIZED ACCESS"<<endl;
     Sleep(2000);
     system("cls");
     std::cout<<" \n\n\n\n";
@@ -136,7 +135,7 @@ int main()
     std::system(" color D");
     char interest;
     std::cout<<" ENTER YOUR INTEREST:"<<endl<<endl<<endl<<endl;
-     INTEREST:
+    INTEREST:
     {
         cin>>interest;
     }
@@ -167,7 +166,7 @@ int main()
         Sleep(1000);
         std::cout<<"..........SEARCHING.........."<<endl;
         std::system("cls");
-        std::cout<<" SELECT ANY ONE CATEGORY: "<<endl;
+        std::cout<<" SELECT ANY ONE GENRE: "<<endl;
         std::cout<<"                   1. SCIENCE FICTION  "<<endl;
         std::cout<<"        2. HISTORICAL FICTION        "<<endl;
         std::cout<<"                   3. MYSTERY  "<<endl;
@@ -180,7 +179,7 @@ int main()
         string Cat1,Cat2;
     EnglishNovels:
         {
-            std::cout<<" ENTER YOUR LOVED CATEGORY OF NOVELS "<<endl;
+            std::cout<<" ENTER YOUR LOVED GENRE OF NOVELS "<<endl;
             cin>>Cat1>>Cat2;
         }
         if ((Cat1=="SCIENCE" || Cat1=="science") && (Cat2=="FICTION" || Cat2=="fiction"))
