@@ -23,6 +23,11 @@ int passcode(int fourdnum)
     std::cout<<endl<<endl<<endl;
     std::cout<<" ENTER IT NOW "<<endl;
 }
+char aski(char askme)
+{
+    cin.ignore();
+    cout<<" DO YOU WANT TO BROWSE FURTHER???"<<endl;
+}
 int main()
 {
     std::system("cls");
@@ -134,9 +139,9 @@ int main()
     Sleep(3000);
     std::system(" color D");
     char interest;
-    std::cout<<" ENTER YOUR INTEREST:"<<endl<<endl<<endl<<endl;
     INTEREST:
     {
+        std::cout<<" ENTER YOUR INTEREST:"<<endl<<endl<<endl<<endl;
         cin>>interest;
     }
     if(interest=='N' || interest=='n')   
@@ -942,7 +947,7 @@ int main()
         else 
         {
             cout<<" INVALID INPUT"<<endl;
-            cout<<" ENTER THE VALID GENRE"<<endl;
+            cout<<" ENTER THE VALID CATEGORY OF MOVIES"<<endl;
             goto EnglishMovies;
         }
     }
@@ -1089,7 +1094,7 @@ int main()
         Sleep(2000);
     std::system(" cls ");
     std::system(" color 6");
-    std::cout<<"          SELECT ANY ONE OPTION FOR LANGUAGE"<<endl;
+    std::cout<<"          SELECT ANY ONE OPTION"<<endl;
     std::cout<<"                   1. ENGLISH  "<<endl;
     std::cout<<"            2. URDU        "<<endl;
     std::cout<<"                   3. HINDI  "<<endl;
@@ -1145,8 +1150,8 @@ int main()
 	}
 	else if(language9=="folk" || language9=="FOLK")
     {
-    	fstream songsfav;
-    	songsfav.open("folkProsongs.txt",ios::in);
+    	fstream songsfolk;
+    	songsfolk.open("folkProsongs.txt",ios::in);
 	}
     else 
     {
@@ -1154,7 +1159,6 @@ int main()
         cout<<" ENTER THE LANGUAGE AGAIN"<<endl;
         goto Language9;
     }
-    
     }
     else if (interest=='T' || interest=='t')
     {
@@ -1170,7 +1174,23 @@ else
 {
     system ("cls");
     cout<<" PASSWORD UNACCEPTABLE"<<endl;
+    cout<<" FAILED TO  LOGIN "<<endl;
     goto asking;
+}
+cout<<" DO YOU WANT TO SEE AGAIN"<<endl;
+cout<<" Y FOR YES"<<endl;
+cout<<" N FOR NO"<<endl;
+char a;
+aski(a);
+string ash;
+cin>>ash;
+if( ash=="Y" || ash=="y")
+{
+    goto INTEREST;
+}
+else
+{
+    cout<<" HAVE A GOOD DAY "<<endl;
 }
 return 0;         
 }
