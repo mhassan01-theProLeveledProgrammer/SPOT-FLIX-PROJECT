@@ -1130,8 +1130,22 @@ int main()
     }
     else if (language9=="URDU" || language9=="urdu")
     {  
+        cin.ignore();
         fstream songsurdu;
         songsurdu.open("urduProsongs.txt", ios::in);
+        if(songsurdu.is_open())
+        {
+            string line;
+            while (getline(songsurdu, line))
+            {
+                cout << line << endl;
+            }
+            songsurdu.close();
+        }
+        else
+        {
+            cout << "Unable to open file" << endl;
+        }
     }
     else if(language9=="HINDI" || language9=="hindi")
     {
