@@ -189,7 +189,7 @@ int main()
         }
         if ((Cat1=="SCIENCE" || Cat1=="science") && (Cat2=="FICTION" || Cat2=="fiction"))
         {
-            std::cout<<" HERE WE HAVE \n SOME SCIENCE FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            std::cout<<" HERE WE HAVE SOME SCIENCE FICTION BASED NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             std::system("cls");
             std::system("color A");
@@ -243,7 +243,7 @@ int main()
         }
         else if((Cat1=="HISTORICAL" || Cat1=="historical") && (Cat2=="FICTION" || Cat2=="fiction"))
         {
-            std::cout<<" HERE WE HAVE \n SOME HISTORICAL FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            std::cout<<" HERE WE HAVE SOME HISTORICAL FICTION BASED NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             std::system("cls");
             std::system("color 0");
@@ -299,7 +299,7 @@ int main()
         }
         else if(Cat1=="MYSTERY" || Cat1=="mystery")
         {
-            cout<<" HERE WE HAVE \n SOME MYSTERY BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            cout<<" HERE WE HAVE SOME MYSTERY BASED NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             system("cls");
             system("color 4");
@@ -355,7 +355,7 @@ int main()
         }
         else if(Cat1=="FICTION" || Cat1=="fiction")
         {
-            cout<<" HERE WE HAVE \n SOME FICTION BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            cout<<" HERE WE HAVE SOME FICTION BASED NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             system("cls");
             system("color 8");
@@ -403,7 +403,7 @@ int main()
         }
         else if(Cat1=="HORROR" || Cat1=="horror")
         {
-            cout<<" HERE WE HAVE \n SOME HORROR NOVELS \n YOU WOULD LOVE"<<endl;
+            cout<<" HERE WE HAVE SOME HORROR NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             system("cls");
             system("color B");
@@ -446,7 +446,7 @@ int main()
         }
         else if(Cat1=="FANTASY" || Cat1=="fantasy")
         {
-            std::cout<<" HERE WE HAVE \n SOME FANTASY BASED NOVELS \n YOU WOULD LOVE"<<endl;
+            std::cout<<" HERE WE HAVE SOME FANTASY BASED NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             std::system("cls");
             std::system("color E");
@@ -502,7 +502,7 @@ int main()
         }
         else if(Cat1=="ROMANCE" || Cat1=="romance")
         {
-            std::cout<<" HERE WE HAVE \n SOME ROMANTIC NOVELS \n YOU WOULD LOVE"<<endl;
+            std::cout<<" HERE WE HAVE SOME ROMANTIC NOVELS YOU WOULD LOVE"<<endl;
             Sleep(2000);
             std::system("cls");
             std::system("color 4");
@@ -553,7 +553,7 @@ int main()
         }
         else if(Cat1=="BIOGRAPHY" || Cat1=="biography")
         {
-            std::cout<<" HERE WE HAVE \n SOME BIOGRAPHIES \n YOU WOULD LOVE"<<endl;
+            std::cout<<" HERE WE HAVE SOME BIOGRAPHIES YOU WOULD LOVE"<<endl;
             Sleep(2000);
             std::system("cls");
             std::system("color 8");
@@ -699,7 +699,7 @@ int main()
     }
     else if(interest=='M' || interest=='m')   
     {
-        std::cout<<" YOU WANNA WATCH MOVIES!"<<endl;
+        std::cout<<" HERE WE HAVE SOME MOVIES YOU WOULD LOVE "<<endl;
         std::cout<<" VALID INPUT"<<endl;
         Sleep(1000);
         std::cout<<" COMMAND ACCEPTED"<<endl;
@@ -953,7 +953,7 @@ int main()
     }
     else if(language1=="URDU" || language1=="urdu")
     {
-        std::cout<<" YAHAN HUM AP KO AP KI PASAND KI URDU MOVIES DIKHAIN GAY "<<endl;
+        std::cout<<" YAHAN HUM AP KO AP KI PASAND KI URDU MOVIES KAY BARRAY MAIN BTAIN GAY "<<endl;
             Sleep(2000);
             system("cls");
             system("color A");
@@ -1024,7 +1024,7 @@ int main()
     }
     else if(language1=="HINDI" || language1=="hindi")
     {
-        std::cout<<" YAHAN HUM AP KO AP KI PASAND KI HINDI MOVIES DIKHAIN GAY "<<endl;
+        std::cout<<" YAHAN HUM AP KO AP KI PASAND KI HINDI MOVIES KAY BARRAY MAIN BTAAIN  GAY "<<endl;
             Sleep(2000);
             system("cls");
             system("color A");
@@ -1054,7 +1054,7 @@ int main()
     }
     else if(language1=="PUNJABI" || language1=="punjabi")
     {
-        std::cout<<"AEDHAR ASSI \n\t TUHANU \n\t\t TUHADDI PASAAND DI \n\t\t\t PUNJABI MOVIES WAKHAWAN GAY"<<endl;
+        std::cout<<"AEDHAR ASSI \n\t TUHANU \n\t\t TUHADDI PASAAND DI \n\t\t\t PUNJABI MOVIES DAY BARRAY DASSAN GAY"<<endl;
             Sleep(10000);
             system("cls");
             system("color A");
@@ -1087,7 +1087,7 @@ int main()
     }    
     else if (interest=='S' || interest=='s')
     {
-        std::cout<<" YOU WANNA LISTEN SONGS!"<<endl;
+        std::cout<<" HERE WE HAVE SOME SONGS YOU WOULD LOVE!"<<endl;
         std::cout<<" VALID INPUT"<<endl;
         Sleep(1000);
         std::cout<<" COMMAND ACCEPTED"<<endl;
@@ -1098,7 +1098,7 @@ int main()
     std::cout<<"                   1. ENGLISH  "<<endl;
     std::cout<<"            2. URDU        "<<endl;
     std::cout<<"                   3. HINDI  "<<endl;
-    std::cout<<"            4. KOREAN  "<<endl;
+    std::cout<<"            4. JAPANESE  "<<endl;
     std::cout<<"                   5. MY FAVOURITES  "<<endl;
     std::cout<<"           6. FOLK  "<<endl;
 	Sleep(3000);
@@ -1110,6 +1110,7 @@ int main()
     }
     if(language9=="ENGLISH" || language9=="english")   
     {
+        system("cls");
         cin.ignore();
         fstream file;
         file.open("englishProsongs.txt",ios::in);
@@ -1130,6 +1131,7 @@ int main()
     }
     else if (language9=="URDU" || language9=="urdu")
     {  
+        system("cls");
         cin.ignore();
         fstream songsurdu;
         songsurdu.open("urduProsongs.txt", ios::in);
@@ -1149,23 +1151,224 @@ int main()
     }
     else if(language9=="HINDI" || language9=="hindi")
     {
+        system("cls");
+        cin.ignore();
         fstream songshindi;
         songshindi.open("hindiProsongs.txt", ios::in);
+        if(songshindi.is_open())
+        {
+            string line;
+            while (getline(songshindi, line))
+            {
+                cout << line << endl;
+            }
+            songshindi.close();
+        }
+        else
+        {
+            cout << "Unable to open file" << endl;
+        }
     }
-    else if(language9=="KOREAN" || language9=="korean")
+    else if(language9=="JAPANESE" || language9=="japanese")
     {
-        fstream songskorean;
-        songskorean.open("koreanProsongs.txt", ios::in);
+        system("cls");
+        cin.ignore();
+        fstream songsjapanese;
+        songsjapanese.open("japaneseProsongs.txt", ios::out);
+        songsjapanese.open("japaneseProsongs.txt", ios::in);
+        if(songsjapanese.is_open())
+        {
+            string line;
+            while (getline(songsjapanese, line))
+            {
+                cout << line << endl;
+            }
+            songsjapanese.close();
+        }
+        else
+        {
+            cout << "Unable to open file" << endl;
+        }
     }
     else if(language9=="favourites" || language9=="FAVOURITES")
     {
-    	fstream songsfav;
-    	songsfav.open("favProsongs.txt",ios::in);
+        // THIS PART IS PURELY ADDED BY MUHAMMAD HASSAN @ FIRST FLEET
+        system("cls");
+        cout<<"..........LOOKING FOR YOUR FAVOURITES.........."<<endl;
+        string prefer;
+        Sleep(3000);
+        cout<<" YOUR FAVOURITES ARE:"<<endl;
+        cout<<"1.        AZ "<<endl;
+        cout<<"2.        HK "<<endl;
+        cout<<"3.        PAKISTANI PUNJABI "<<endl;
+        cout<<"4.        MY PLAYLIST "<<endl;
+        cout<<"5.        MM "<<endl;
+        cout<<"6.        COKE STUDIO "<<endl;
+        prefer:
+        {
+        Sleep(2000);
+        cout<<endl<<endl<<endl;
+        cout<<"TELL US WHAT YOU WANT TO SEE"<<endl;
+        cin>>prefer;
+        }
+        if(prefer=="AZ" || prefer=="az")
+        {
+            system("cls");
+            fstream az;
+            // create a file
+            //az.open("aliz.txt",ios::out);
+            // makes the file ready to read
+            az.open("aliz.txt",ios::in);
+            if(az.is_open())
+            {
+                string line;
+                while(getline(az,line))
+                {
+                    cout<<line<<endl;
+                }
+                az.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else if(prefer=="HK" || prefer=="hk")
+        {
+            system("cls");
+            fstream hk;
+            // create a file
+            hk.open("hadk.txt",ios::out);
+            // makes the file ready to read
+            hk.open("hadk.txt",ios::in);
+            if(hk.is_open())
+            {
+                string line;
+                while(getline(hk,line))
+                {
+                    cout<<line<<endl;
+                }
+                hk.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else if(prefer==" PAKISTANI" || prefer=="pakistani")
+        {
+            system("cls");
+            fstream pp;
+            // create a file
+            pp.open("PakiPunj.txt",ios::out);
+            // makes the file ready to read
+            pp.open("PakiPunj.txt",ios::in);
+            if(pp.is_open())
+            {
+                string line;
+                while(getline(pp,line))
+                {
+                    cout<<line<<endl;
+                }
+                pp.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else if(prefer=="MY" || prefer=="my")
+        {
+            system("cls");
+            fstream mf;
+            // create a file
+            mf.open("myfav.txt",ios::out);
+            // makes the file ready to read
+            mf.open("myfav.txt",ios::in);
+            if(mf.is_open())
+            {
+                string line;
+                while(getline(mf,line))
+                {
+                    cout<<line<<endl;
+                }
+                mf.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else if(prefer=="MM" || prefer=="mm")
+        {
+            system("cls");
+            fstream mm;
+            // create a file
+            mm.open("momimun.txt",ios::out);
+            // makes the file ready to read
+            mm.open("myfav.txt",ios::in);
+            if(mm.is_open())
+            {
+                string line;
+                while(getline(mm,line))
+                {
+                    cout<<line<<endl;
+                }
+                mm.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else if(prefer=="COKE" || prefer=="coke")
+        {
+            system("cls");
+            fstream CS;
+            // create a file
+            CS.open("CS.txt",ios::out);
+            // makes the file ready to read
+            CS.open("CS.txt",ios::in);
+            if(CS.is_open())
+            {
+                string line;
+                while(getline(CS,line))
+                {
+                    cout<<line<<endl;
+                }
+                CS.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else
+        {
+            cout<<" YOU MADE A MISTAKE"<<endl;
+            cout<<" ENTER AGAIN "<<endl;
+            goto prefer;
+        }
 	}
 	else if(language9=="folk" || language9=="FOLK")
     {
+        system("cls");
+        cin.ignore();
     	fstream songsfolk;
     	songsfolk.open("folkProsongs.txt",ios::in);
+        if(songsfolk.is_open())
+            {
+                string line;
+                while(getline(songsfolk,line))
+                {
+                    cout<<line<<endl;
+                }
+                songsfolk.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
 	}
     else 
     {
@@ -1176,7 +1379,197 @@ int main()
     }
     else if (interest=='T' || interest=='t')
     {
-        cout<<" TELVISION SERIES"<<endl;
+        cout<<" 1.       ACTION \n 2.        CRIME\n 3.          ADVENTURE\n 4.        COMEDY\n 5.          HORROR\n 6.        ROMANCE\n 7.         FANTSY\n 8.        EROTICA"<<endl;
+        string pef;
+        asktv:
+        {
+        Sleep(2000);
+        cout<<"WHAT DO YOU WANT?"<<endl;
+        //string pef;
+        cin>>pef;
+        }
+        if( pef=="ACTION" || pef=="action")
+        {
+        system("cls");
+        cin.ignore();
+    	fstream tv1;
+    	tv1.open("Action Series.txt",ios::in);
+        if(tv1.is_open())
+            {
+                string line;
+                while(getline(tv1,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv1.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+        }
+        else if(pef=="crime" || pef=="crime")
+        {
+            system("cls");
+        cin.ignore();
+    	fstream tv2;
+    	tv2.open("Crime Series.txt",ios::in);
+        if(tv2.is_open())
+            {
+                string line;
+                while(getline(tv2,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv2.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+
+        }
+        else if(pef=="ADVENTURE" || pef=="adventure")
+        {
+            system("cls");
+        cin.ignore();
+    	fstream tv3;
+    	tv3.open("Adventure Series.txt",ios::in);
+        if(tv3.is_open())
+            {
+                string line;
+                while(getline(tv3,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv3.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+
+        }
+        else if(pef=="comedy" || pef=="comedy")
+        {
+            system("cls");
+        cin.ignore();
+    	fstream tv4;
+    	tv4.open("Comedy&Drama Series.txt",ios::in);
+        if(tv4.is_open())
+            {
+                string line;
+                while(getline(tv4,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv4.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+
+        }
+        else if(pef=="HORROR" || pef=="horror")
+        {
+            system("cls");
+        cin.ignore();
+    	fstream tv5;
+    	tv5.open("Horror Series.txt",ios::in);
+        if(tv5.is_open())
+            {
+                string line;
+                while(getline(tv5,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv5.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+
+        }
+        else if(pef=="ROMANCE" || pef=="romance")
+        {
+            system("cls");
+        cin.ignore();
+    	fstream tv6;
+    	tv6.open("Romance Series.txt",ios::in);
+        if(tv6.is_open())
+            {
+                string line;
+                while(getline(tv6,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv6.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+
+        }
+        else if(pef=="FANTASY" || pef=="fantsy")
+        {
+            system("cls");
+        cin.ignore();
+    	fstream tv7;
+    	tv7.open("Fantasy Series.txt",ios::in);
+        if(tv7.is_open())
+            {
+                string line;
+                while(getline(tv7,line))
+                {
+                    cout<<line<<endl;
+                }
+                tv7.close();
+            }
+            else
+            {
+                cout<<" UNABLE TO OPEN FILE "<<endl;
+            }
+
+        }
+        else if(pef=="EROTICA" || pef=="erotica")
+        {
+            cout<<" AGE RESTRICTED CONETNT "<<endl;
+            cout<<" ENTER YOUR AGE "<<endl;
+            int age;
+            cin>>age;
+            if(age>=18)
+            {
+                system("cls");
+                cin.ignore();
+    	        fstream tv8;
+    	        tv8.open("Erotica Series.txt",ios::in);
+                if(tv8.is_open())
+                {
+                    string line;
+                    while(getline(tv8,line))
+                    {
+                        cout<<line<<endl;
+                    }
+                    tv8.close();
+                }
+                else
+                {
+                    cout<<" UNABLE TO OPEN FILE "<<endl;
+                }
+            }
+            else
+            {
+                cout<<" ACCESS DENIED"<<endl;
+            }
+        }
+        else
+        {
+            cout<<" ERROR OCCURED, ENTER AGAIN"<<endl;
+            goto asktv;   
+        }
     }
     else 
     {
